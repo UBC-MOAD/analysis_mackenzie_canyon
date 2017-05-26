@@ -7,6 +7,10 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[scaling_depth_flux.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/scaling_depth_flux.ipynb)  
+    
+    May: How Mackenzie Canyon fits into the established scaling for depth of upwelling and upwelling flux.  
+
 
 ##License
 
