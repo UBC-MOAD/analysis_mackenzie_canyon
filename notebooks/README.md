@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     May: How Mackenzie Canyon fits into the established scaling for depth of upwelling and upwelling flux.  
 
+* ##[depth_of_upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling.ipynb)  
+    
 
 ##License
 
