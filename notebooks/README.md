@@ -7,11 +7,19 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[scaling_depth_flux.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/scaling_depth_flux.ipynb)  
+* ##[depth_of_upwelling_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling_rim.ipynb)  
     
-    May: How Mackenzie Canyon fits into the established scaling for depth of upwelling and upwelling flux.  
+    May: Outline of the canyon rim and the depth of upwelling along it (for one time and time range).  
 
-* ##[depth_of_upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling.ipynb)  
+* ##[MackBark_model_scale_Z.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/MackBark_model_scale_Z.ipynb)  
+    
+    May: Comparison between Mackenzie and Barkley of the scaled and modelled depth of upwelling.  
+
+* ##[depth_of_upwelling_scale.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling_scale.ipynb)  
+    
+    May: Scale analysis for depth of upwelling in Mackenzie Canyon (including incoming velocity and stratification).  
+
+* ##[isopycnal_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/isopycnal_profiles.ipynb)  
     
 
 ##License
