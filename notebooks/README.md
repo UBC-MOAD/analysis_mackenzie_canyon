@@ -15,6 +15,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     June: Order of process for new resolution.  
 
+* ##[config_for_agrif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/config_for_agrif.ipynb)  
+    
+    July: Bathymetry, coordinates, bdy and init conditions, and namelist changes for configuration for AGRIF.  
+
 * ##[flux_planes.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/flux_planes.ipynb)  
     
     June: Creating flux containers/planes and looking at scaling factors.  
