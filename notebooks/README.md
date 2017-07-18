@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[agrif_first_look.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_first_look.ipynb)  
+    
 * ##[depth_of_upwelling_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling_rim.ipynb)  
     
     May: Outline of the canyon rim and the depth of upwelling along it (for one time and time range).  
@@ -31,6 +33,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     May: Scale analysis for depth of upwelling in Mackenzie Canyon (including incoming velocity and stratification).  
 
+* ##[waitjob_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/waitjob_runs.ipynb)  
+    
 * ##[isopycnal_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/isopycnal_profiles.ipynb)  
     
 
