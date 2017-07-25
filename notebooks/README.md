@@ -25,10 +25,16 @@ Descriptions under the links below are from the first cell of the notebooks
     
     June: Creating flux containers/planes and looking at scaling factors.  
 
+* ##[AGRIF_notes.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/AGRIF_notes.ipynb)  
+    
+    Notes from my meeting with Michael about how to run the Mackenzie model with AGRIF.  
+
 * ##[MackBark_model_scale_Z.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/MackBark_model_scale_Z.ipynb)  
     
     May: Comparison between Mackenzie and Barkley of the scaled and modelled depth of upwelling.  
 
+* ##[agrif_north_bdy.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_north_bdy.ipynb)  
+    
 * ##[depth_of_upwelling_scale.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling_scale.ipynb)  
     
     May: Scale analysis for depth of upwelling in Mackenzie Canyon (including incoming velocity and stratification).  
