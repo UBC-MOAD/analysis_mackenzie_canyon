@@ -7,6 +7,10 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[velocities_canyon_profile.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/velocities_canyon_profile.ipynb)  
+    
+    August: Evolution of velocities in the canyon.  
+
 
 ##License
 
