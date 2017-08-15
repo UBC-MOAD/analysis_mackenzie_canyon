@@ -7,11 +7,11 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[animations_UVW_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/notebooks/general_circulation/raw/tip/notebooks/animations_UVW_top_profiles.ipynb)  
+* ##[animations_UVW_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/notebooks/animations_UVW_top_profiles.ipynb)  
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
-* ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/notebooks/general_circulation/raw/tip/notebooks/animations_W_top_profiles.ipynb)  
+* ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/notebooks/animations_W_top_profiles.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
 
