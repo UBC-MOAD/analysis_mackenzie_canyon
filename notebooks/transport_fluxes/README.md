@@ -7,11 +7,11 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[flux_planes.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/flux_planes.ipynb)  
+* ##[flux_planes.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/flux_planes.ipynb)  
     
     June: Creating flux containers/planes and looking at scaling factors.  
 
-* ##[planes_indices_V.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/planes_indices_V.ipynb)  
+* ##[planes_indices_V.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/planes_indices_V.ipynb)  
     
     August: Defining transport sections on the plane that cuts vertically at the shelf break. This is specifically for V transport.  
 
