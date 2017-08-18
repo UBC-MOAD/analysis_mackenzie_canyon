@@ -1,9 +1,13 @@
 import netCDF4 as nc
 import numpy as np
 import os
+import sys
+sys.path.append('/ocean/imachuca/Canyons/analysis_mackenzie_canyon/notebooks/general_circulation/')
+import general_functions
+from salishsea_tools.nc_tools import scDataset
 
 
-def get_variables_V(dirname, filename):
+def get_variables_planes(dirname, filename):
     with nc.Dataset(os.path.join(dirname, filename), 'r') as nbl:
         x, y =  slice(1,-1,None), slice(1,-1,None)
         gdepv = nbl.variables['gdepv'][0, :, 1, 1]
@@ -159,3 +163,37 @@ def total_sections(axis, var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_t
     tot_var_botE = np.sum(var_botE, axis=axis)
     
     return tot_var_shfW, tot_var_rimW, tot_var_rimE, tot_var_shfE, tot_var_topW, tot_var_topE, tot_var_botW, tot_var_botE
+
+# ------------------------------------------------------------------------------------------------
+
+def get_variables_fluxes(dirname, filepattern, ind_plane, vmask):
+    files = general_functions.get_files(dirname, filepattern, 'grid_V')
+    x, y =  slice(1,-1,None), int(ind_plane)
+    with scDataset(files) as ds:
+        vomecrty0 = ds.variables['vomecrty'][:, :, y, x]
+    vmask0 = vmask[:, y, :]
+    vmask = np.tile(vmask0, (vomecrty0.shape[0],1, 1))  
+    vomecrty = np.ma.array(vomecrty0, mask=1 - vmask)
+    return vomecrty
+
+# ------------------------------------------------------------------------------------------------
+
+def calculate_flux_V(time_ind, velocity_plane, area_plane):
+    '''Calculates flux at all cells at one time.
+    velocity_plane (t, z, x)
+    area_plane(z, x)
+    '''
+    Q_plane = velocity_plane[time_ind, :, :] * area_plane
+    return Q_plane
+
+# ------------------------------------------------------------------------------------------------
+
+def calculate_flux_V_evolution(velocity_plane, area_plane):
+    '''Calculates flux at all cells at all times.
+    velocity_plane (t, z, x)
+    area_plane(z, x)
+    '''
+    Q_plane_all = np.zeros_like(velocity_plane)
+    for time_ind in range(Q_plane_all.shape[0]):
+        Q_plane_all[time_ind, :, :] = calculate_flux_V(time_ind, velocity_plane, area_plane)
+    return Q_plane_all
