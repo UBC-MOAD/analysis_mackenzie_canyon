@@ -65,14 +65,14 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     # x index of rims
     # 1. last land value on left
     # 2. first land value on right
-    ind_rimL0 = np.where(vmask[ind_shelf, ind_plane, :ind_axis]==0)[0][-1]
-    ind_rimR0 = np.where(vmask[ind_shelf, ind_plane, ind_axis:]==0)[0][0] + ind_axis
-    axis_to_rim = min(ind_rimR0 - ind_axis, ind_axis - ind_rimL0)
-    ind_rimL = ind_axis - axis_to_rim
-    ind_rimR = ind_axis + axis_to_rim
+    ind_rimW0 = np.where(vmask[ind_shelf, ind_plane, :ind_axis]==0)[0][-1]
+    ind_rimE0 = np.where(vmask[ind_shelf, ind_plane, ind_axis:]==0)[0][0] + ind_axis
+    axis_to_rim = min(ind_rimE0 - ind_axis, ind_axis - ind_rimW0)
+    ind_rimW = ind_axis - axis_to_rim
+    ind_rimE = ind_axis + axis_to_rim
 
-    print('ind_rimL', ind_rimL)
-    print('ind_rimR', ind_rimR)
+    print('ind_rimW', ind_rimW)
+    print('ind_rimE', ind_rimE)
 
     # z index of half canyon
     # 1. area of individual wet cells
@@ -107,18 +107,18 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     # x index of shelves
     # 1. try to make shf same width as rim
     # 2. 
-    ind_shfL0 = ind_rimL - axis_to_rim
-    ind_shfR0 = ind_rimR + axis_to_rim
-    while ind_shfL0 <= 4:
-        ind_shfL0 += 1
-    while ind_shfR0 >= vmask.shape[-1]-4:
-        ind_shfR0 -= 1
-    axis_to_shf = min(ind_shfR0 - ind_axis, ind_axis - ind_shfL0)
-    ind_shfL = ind_axis - axis_to_shf
-    ind_shfR = ind_axis + axis_to_shf
+    ind_shfW0 = ind_rimW - axis_to_rim
+    ind_shfE0 = ind_rimE + axis_to_rim
+    while ind_shfW0 <= 4:
+        ind_shfW0 += 1
+    while ind_shfE0 >= vmask.shape[-1]-4:
+        ind_shfE0 -= 1
+    axis_to_shf = min(ind_shfE0 - ind_axis, ind_axis - ind_shfW0)
+    ind_shfW = ind_axis - axis_to_shf
+    ind_shfE = ind_axis + axis_to_shf
 
-    print('ind_shfL', ind_shfL)
-    print('ind_shfR', ind_shfR)
+    print('ind_shfW', ind_shfW)
+    print('ind_shfE', ind_shfE)
     
-    return ind_plane, ind_shelf, ind_bottom, ind_axis, ind_rimL, ind_rimR, ind_half, ind_shfL, ind_shfR,\
+    return ind_plane, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_rimE, ind_half, ind_shfW, ind_shfE,\
             depth_shelf, depth_bottom, depth_half, area_j
