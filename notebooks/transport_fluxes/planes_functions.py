@@ -2,15 +2,17 @@ import netCDF4 as nc
 import numpy as np
 import os
 
-
+    
 def get_variables_V(dirname, filename):
     with nc.Dataset(os.path.join(dirname, filename), 'r') as nbl:
+        x, y =  slice(1,-1,None), slice(1,-1,None)
         gdepv = nbl.variables['gdepv'][0, :, 1, 1]
-        vmask = nbl.variables['umask'][0,...]
-        mbathy = nbl.variables['mbathy'][0,...]
-        e1v = nbl.variables['e1v'][0,...]
-        e3v_0 = nbl.variables['e3v_0'][0,...]  
+        vmask = nbl.variables['vmask'][0, :, y, x]
+        mbathy = nbl.variables['mbathy'][0, y, x]
+        e1v = nbl.variables['e1v'][0, y, x]
+        e3v_0 = nbl.variables['e3v_0'][0, :, y, x]  
         return gdepv, vmask, mbathy, e1v, e3v_0
+    
     
 def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     
@@ -101,5 +103,15 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     print('ind_half', ind_half)
     print('depth_half', depth_half)
     
-    return ind_plane, ind_shelf, ind_bottom, ind_axis, ind_rimL, ind_rimR, ind_half, \
+    # x index of shelves
+    ind_shfL0 = 10
+    ind_shfR0 = vmask.shape[-1] - 10
+    axis_to_shf = min(ind_shfR0 - ind_axis, ind_axis - ind_shfL0)
+    ind_shfL = ind_axis - axis_to_shf
+    ind_shfR = ind_axis + axis_to_shf
+
+    print('ind_shfL', ind_shfL)
+    print('ind_shfR', ind_shfR)
+    
+    return ind_plane, ind_shelf, ind_bottom, ind_axis, ind_rimL, ind_rimR, ind_half, ind_shfL, ind_shfR,\
             depth_shelf, depth_bottom, depth_half, area_j
