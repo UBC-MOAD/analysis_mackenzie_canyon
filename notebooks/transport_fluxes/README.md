@@ -17,6 +17,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[transport_V.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/transport_V.ipynb)  
     
+    August: Calculating the V transport across the sections on the shelf break plane.  
+
 
 ##License
 
