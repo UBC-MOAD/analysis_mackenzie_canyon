@@ -129,16 +129,15 @@ def extract_sections(variable, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_ri
     ''' Extracts the values of a given variable for
     all the sections dividing the plane at the shelf break.
     '''
-    var_shelf_shfW = variable[: ind_shelf, ind_shfW : ind_rimW]
-    var_shelf_rimW = variable[: ind_shelf, ind_rimW : ind_axis]
-    var_shelf_rimE = variable[: ind_shelf, ind_axis : ind_rimE]
-    var_shelf_shfE = variable[: ind_shelf, ind_rimE : ind_shfE]
+    var_shfW = variable[..., : ind_shelf, ind_shfW : ind_rimW]
+    var_rimW = variable[..., : ind_shelf, ind_rimW : ind_axis]
+    var_rimE = variable[..., : ind_shelf, ind_axis : ind_rimE]
+    var_shfE = variable[..., : ind_shelf, ind_rimE : ind_shfE]
     
-    var_topW = variable[ind_shelf : ind_half + 1, ind_rimW : ind_axis]
-    var_topE = variable[ind_shelf : ind_half + 1, ind_axis : ind_rimE]
+    var_topW = variable[..., ind_shelf : ind_half + 1, ind_rimW : ind_axis]
+    var_topE = variable[..., ind_shelf : ind_half + 1, ind_axis : ind_rimE]
     
-    var_botW = variable[ind_half + 1 : ind_bottom, ind_rimW : ind_axis]
-    var_botE = variable[ind_half + 1 : ind_bottom, ind_axis : ind_rimE]
+    var_botW = variable[..., ind_half + 1 : ind_bottom, ind_rimW : ind_axis]
+    var_botE = variable[..., ind_half + 1 : ind_bottom, ind_axis : ind_rimE]
     
-    return var_shelf_shfW, var_shelf_rimW, var_shelf_rimE, var_shelf_shfE,\
-            var_topW, var_topE, var_botW, var_botE
+    return var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_topE, var_botW, var_botE
