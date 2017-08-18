@@ -13,6 +13,7 @@ def get_variables_V(dirname, filename):
         e3v_0 = nbl.variables['e3v_0'][0, :, y, x]  
         return gdepv, vmask, mbathy, e1v, e3v_0
     
+# ------------------------------------------------------------------------------------------------
     
 def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     
@@ -104,8 +105,14 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     print('depth_half', depth_half)
     
     # x index of shelves
-    ind_shfL0 = 10
-    ind_shfR0 = vmask.shape[-1] - 10
+    # 1. try to make shf same width as rim
+    # 2. 
+    ind_shfL0 = ind_rimL - axis_to_rim
+    ind_shfR0 = ind_rimR + axis_to_rim
+    while ind_shfL0 <= 4:
+        ind_shfL0 += 1
+    while ind_shfR0 >= vmask.shape[-1]-4:
+        ind_shfR0 -= 1
     axis_to_shf = min(ind_shfR0 - ind_axis, ind_axis - ind_shfL0)
     ind_shfL = ind_axis - axis_to_shf
     ind_shfR = ind_axis + axis_to_shf
