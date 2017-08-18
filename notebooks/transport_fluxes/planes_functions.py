@@ -2,7 +2,6 @@ import netCDF4 as nc
 import numpy as np
 import os
 
-    
 def get_variables_V(dirname, filename):
     with nc.Dataset(os.path.join(dirname, filename), 'r') as nbl:
         x, y =  slice(1,-1,None), slice(1,-1,None)
@@ -105,8 +104,9 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     print('depth_half', depth_half)
     
     # x index of shelves
-    # 1. try to make shf same width as rim
-    # 2. 
+    # 1. try to make shf sections same width as rim sections
+    # 2. if 4 cells away from edge, bring closer to centre
+    # 3. find smallest distance from centre and use as width
     ind_shfW0 = ind_rimW - axis_to_rim
     ind_shfE0 = ind_rimE + axis_to_rim
     while ind_shfW0 <= 4:
@@ -122,3 +122,23 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     
     return ind_plane, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_rimE, ind_half, ind_shfW, ind_shfE,\
             depth_shelf, depth_bottom, depth_half, area_j
+    
+# ------------------------------------------------------------------------------------------------
+
+def extract_sections(variable, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_rimE, ind_half, ind_shfW, ind_shfE):
+    ''' Extracts the values of a given variable for
+    all the sections dividing the plane at the shelf break.
+    '''
+    var_shelf_shfW = variable[: ind_shelf, ind_shfW : ind_rimW]
+    var_shelf_rimW = variable[: ind_shelf, ind_rimW : ind_axis]
+    var_shelf_rimE = variable[: ind_shelf, ind_axis : ind_rimE]
+    var_shelf_shfE = variable[: ind_shelf, ind_rimE : ind_shfE]
+    
+    var_topW = variable[ind_shelf : ind_half + 1, ind_rimW : ind_axis]
+    var_topE = variable[ind_shelf : ind_half + 1, ind_axis : ind_rimE]
+    
+    var_botW = variable[ind_half + 1 : ind_bottom, ind_rimW : ind_axis]
+    var_botE = variable[ind_half + 1 : ind_bottom, ind_axis : ind_rimE]
+    
+    return var_shelf_shfW, var_shelf_rimW, var_shelf_rimE, var_shelf_shfE,\
+            var_topW, var_topE, var_botW, var_botE
