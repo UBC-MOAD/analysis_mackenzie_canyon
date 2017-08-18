@@ -2,6 +2,7 @@ import netCDF4 as nc
 import numpy as np
 import os
 
+
 def get_variables_V(dirname, filename):
     with nc.Dataset(os.path.join(dirname, filename), 'r') as nbl:
         x, y =  slice(1,-1,None), slice(1,-1,None)
@@ -141,3 +142,20 @@ def extract_sections(variable, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_ri
     var_botE = variable[..., ind_half + 1 : ind_bottom, ind_axis : ind_rimE]
     
     return var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_topE, var_botW, var_botE
+
+# ------------------------------------------------------------------------------------------------
+
+def total_sections(axis, var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_topE, var_botW, var_botE):
+    ''' Finds sum of all values in every section of the shelf break plane.
+    '''
+    tot_var_shfW = np.sum(var_shfW, axis=axis)
+    tot_var_rimW = np.sum(var_rimW, axis=axis)
+    tot_var_rimE = np.sum(var_rimE, axis=axis)
+    tot_var_shfE = np.sum(var_shfE, axis=axis)
+
+    tot_var_topW = np.sum(var_topW, axis=axis)
+    tot_var_topE = np.sum(var_topE, axis=axis)
+    tot_var_botW = np.sum(var_botW, axis=axis)
+    tot_var_botE = np.sum(var_botE, axis=axis)
+    
+    return tot_var_shfW, tot_var_rimW, tot_var_rimE, tot_var_shfE, tot_var_topW, tot_var_topE, tot_var_botW, tot_var_botE
