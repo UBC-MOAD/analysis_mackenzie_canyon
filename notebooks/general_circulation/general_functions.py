@@ -103,3 +103,7 @@ def get_limits(var_arrayA, var_arrayB, var_arrayC, scale, lines, flag):
 
 # ------------------------------------------------------------------------------------
 
+def smooth(y, box_pts):
+    box = np.ones(box_pts)/box_pts
+    y_smooth = np.convolve(y, box, mode='same')
+    return y_smooth
