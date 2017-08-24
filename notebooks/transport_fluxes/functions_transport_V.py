@@ -149,18 +149,20 @@ def extract_sections(variable, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_ri
 
 # ------------------------------------------------------------------------------------------------
 
-def total_sections(axis, var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_topE, var_botW, var_botE):
+def total_sections(axis, var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_topE, var_botW, var_botE, smooth):
     ''' Finds sum of all values in every section of the shelf break plane.
+    axis = None for areas
+    axis = (1,2) for fluxes
     '''
-    tot_var_shfW = np.sum(var_shfW, axis=axis)
-    tot_var_rimW = np.sum(var_rimW, axis=axis)
-    tot_var_rimE = np.sum(var_rimE, axis=axis)
-    tot_var_shfE = np.sum(var_shfE, axis=axis)
+    tot_var_shfW = general_functions.smooth(np.sum(var_shfW, axis=axis), smooth)
+    tot_var_rimW = general_functions.smooth(np.sum(var_rimW, axis=axis), smooth)
+    tot_var_rimE = general_functions.smooth(np.sum(var_rimE, axis=axis), smooth)
+    tot_var_shfE = general_functions.smooth(np.sum(var_shfE, axis=axis), smooth)
 
-    tot_var_topW = np.sum(var_topW, axis=axis)
-    tot_var_topE = np.sum(var_topE, axis=axis)
-    tot_var_botW = np.sum(var_botW, axis=axis)
-    tot_var_botE = np.sum(var_botE, axis=axis)
+    tot_var_topW = general_functions.smooth(np.sum(var_topW, axis=axis), smooth)
+    tot_var_topE = general_functions.smooth(np.sum(var_topE, axis=axis), smooth)
+    tot_var_botW = general_functions.smooth(np.sum(var_botW, axis=axis), smooth)
+    tot_var_botE = general_functions.smooth(np.sum(var_botE, axis=axis), smooth)
     
     return tot_var_shfW, tot_var_rimW, tot_var_rimE, tot_var_shfE, tot_var_topW, tot_var_topE, tot_var_botW, tot_var_botE
 
