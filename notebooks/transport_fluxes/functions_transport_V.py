@@ -151,8 +151,10 @@ def extract_sections(variable, ind_shelf, ind_bottom, ind_axis, ind_rimW, ind_ri
 
 def total_sections(axis, var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_topE, var_botW, var_botE, smooth):
     ''' Finds sum of all values in every section of the shelf break plane.
-    axis = None for areas
-    axis = (1,2) for fluxes
+    axis = None for complete sum
+    axis = (1,2) for time sum
+    smooth = 1 for no smoothing
+    smooth = 12 for smoothing oscillations
     '''
     tot_var_shfW = general_functions.smooth(np.sum(var_shfW, axis=axis), smooth)
     tot_var_rimW = general_functions.smooth(np.sum(var_rimW, axis=axis), smooth)
@@ -163,6 +165,19 @@ def total_sections(axis, var_shfW, var_rimW, var_rimE, var_shfE, var_topW, var_t
     tot_var_topE = general_functions.smooth(np.sum(var_topE, axis=axis), smooth)
     tot_var_botW = general_functions.smooth(np.sum(var_botW, axis=axis), smooth)
     tot_var_botE = general_functions.smooth(np.sum(var_botE, axis=axis), smooth)
+    
+    if axis == None:
+        tot_var_shfW = tot_var_shfW[0]
+        tot_var_rimW = tot_var_rimW[0]
+        tot_var_rimE = tot_var_rimE[0]
+        tot_var_shfE = tot_var_shfE[0]
+        
+        tot_var_topW = tot_var_topW[0]
+        tot_var_topE = tot_var_topE[0]
+        tot_var_botW = tot_var_botW[0]
+        tot_var_botE = tot_var_botE[0]
+    else:
+        pass
     
     return tot_var_shfW, tot_var_rimW, tot_var_rimE, tot_var_shfE, tot_var_topW, tot_var_topE, tot_var_botW, tot_var_botE
 
@@ -199,3 +214,19 @@ def calculate_flux_V_evolution(velocity_plane, area_plane):
     for time_ind in range(Q_plane_all.shape[0]):
         Q_plane_all[time_ind, :, :] = calculate_flux_V(time_ind, velocity_plane, area_plane)
     return Q_plane_all
+
+# ------------------------------------------------------------------------------------------------
+
+def get_limits(arrays):
+    ''' Similar to function in general_functions.
+    '''
+    vm_min = max(arrays[0].min(), arrays[1].min(), arrays[2].min(), arrays[3].min(),
+                 arrays[4].min(), arrays[5].min(), arrays[6].min(), arrays[7].min(), key=abs)
+    
+    
+    vm_max = max(arrays[0].max(), arrays[1].max(), arrays[2].max(), arrays[3].max(),
+                 arrays[4].max(), arrays[5].max(), arrays[6].max(), arrays[7].max(), key=abs)
+    
+    vm = max([abs(vm_max), abs(vm_min)])
+
+    return vm
