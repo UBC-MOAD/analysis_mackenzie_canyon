@@ -7,17 +7,29 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[V_questions.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_questions.ipynb)  
+    
+    Questions and answers about V transports.  
+
 * ##[original_notebook.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/original_notebook.ipynb)  
     
     June: Creating flux containers/planes and looking at scaling factors.  
 
-* ##[planes_indices_V.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/planes_indices_V.ipynb)  
+* ##[U_planes_indices.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/U_planes_indices.ipynb)  
+    
+    August: Defining transport sections on the plane that cuts vertically at the shelf break. This is specifically for U transport.  
+
+* ##[V_transports.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_transports.ipynb)  
+    
+    August: Calculating the V transport across the sections on the shelf break plane.  
+
+* ##[V_planes_indices.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_planes_indices.ipynb)  
     
     August: Defining transport sections on the plane that cuts vertically at the shelf break. This is specifically for V transport.  
 
-* ##[transport_V.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/transport_V.ipynb)  
+* ##[animations_V_flux_sections.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/animations_V_flux_sections.ipynb)  
     
-    August: Calculating the V transport across the sections on the shelf break plane.  
+    August: Animations of the V flux evolution at every section on the shelf break plane and the corresponding V velocity patterns.  
 
 
 ##License
