@@ -19,6 +19,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Defining transport sections on the plane that cuts vertically at the shelf break. This is specifically for U transport.  
 
+* ##[mesh_mask_nocanyon.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/mesh_mask_nocanyon.ipynb)  
+    
+    August: Checking if the child mesh_mask for the no canyon bathymetry was created correctly.  
+
 * ##[V_transports.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_transports.ipynb)  
     
     August: Calculating the V transport across the sections on the shelf break plane.  
