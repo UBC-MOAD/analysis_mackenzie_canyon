@@ -7,13 +7,17 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[W_transports.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/W_transports.ipynb)  
-    
 * ##[W_planes_indices.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/W_planes_indices.ipynb)  
     
+    **Part 2:** Defining transport sections over the rim of the canyon and surrounding shelf and slope.  
+
 * ##[V_questions.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_questions.ipynb)  
     
-    Questions and answers about V transports.  
+    **Part 3:** Questions and answers about V transports.  
+
+* ##[W_rimvels.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/W_rimvels.ipynb)  
+    
+    **Part 3: ** Manipulating rim sections of vertical velocities.  
 
 * ##[original_notebook.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/original_notebook.ipynb)  
     
@@ -25,15 +29,15 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[mesh_mask_nocanyon.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/mesh_mask_nocanyon.ipynb)  
     
-    August: Checking if the child mesh_mask for the no canyon bathymetry was created correctly.  
+    **Part 1:** Close look at the mesh mask variables in no-canyon and canyon cases.  
 
 * ##[V_transports.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_transports.ipynb)  
     
-    August: Calculating the V transport across the sections on the shelf break plane.  
+    **Part 2:** Calculating the V transport across the sections on the shelf break plane.  
 
 * ##[V_planes_indices.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/V_planes_indices.ipynb)  
     
-    August: Defining transport sections on the plane that cuts vertically at the shelf break. This is specifically for V transport.  
+    **Part 1:** Defining transport sections on the plane that cuts vertically at the shelf break.  
 
 * ##[animations_V_flux_sections.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/transport_fluxes/animations_V_flux_sections.ipynb)  
     
