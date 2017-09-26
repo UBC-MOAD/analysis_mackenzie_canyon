@@ -87,7 +87,7 @@ def get_indices_V(gdepv, vmask, mbathy, e1v, e3v_0):
     # 2. total area of every depth level
     area_all = np.zeros(area_j.shape[0])
     for depth_ind in range(area_j.shape[0]):
-        area_all[depth_ind] = area_j[depth_ind, :].sum()
+        area_all[depth_ind] = np.sum(area_j[depth_ind, :, :], axis=None)
 
     # 3. areas and indices of only the depth levels inside the canyon
     area_canyon = area_all[ind_shelf:ind_bottom]
