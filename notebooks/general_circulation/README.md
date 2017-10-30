@@ -19,13 +19,13 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
 
-* ##[animations_horizontal_velocities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_horizontal_velocities.ipynb)  
-    
-    Animations of daily averages U and V velocities. Each animation has subplots representing various depths.  
-
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
+
+* ##[animations_velocities_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_velocities_depths.ipynb)  
+    
+    Animations of daily averages U and V velocities. Each animation has subplots representing various depths.  
 
 * ##[incoming_velocity_outside.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_outside.ipynb)  
     
