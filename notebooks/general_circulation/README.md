@@ -11,10 +11,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
-* ##[horizontal_velocity_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/horizontal_velocity_snapshots.ipynb)  
-    
-    Snapshots of daily averages (between day 1 and day 15) of U and V velocities. Plots can be set for different depths. To be used in conjunction with animations_horizontal_velocities.ipynb  
-
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
@@ -25,7 +21,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[animations_velocities_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_velocities_depths.ipynb)  
     
-    Animations of daily averages U and V velocities. Each animation has subplots representing various depths.  
+    Animations of daily averages U, V, and W velocities. Each animation has subplots representing various depths.  
 
 * ##[incoming_velocity_outside.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_outside.ipynb)  
     
@@ -36,6 +32,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[animations_TempAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_TempAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of temperature anomaly and isotherms using pcolormesh and contour lines.  
+
+* ##[velocities_depths_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_depths_snapshots.ipynb)  
+    
+    Snapshots of daily averages (between day 1 and day 15) of U, V, and W velocities. Plots can be set for different depths. To be used in conjunction with animations_velocities_depths.ipynb  
 
 
 ##License
