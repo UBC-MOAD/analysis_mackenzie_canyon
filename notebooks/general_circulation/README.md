@@ -13,8 +13,14 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[horizontal_velocity_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/horizontal_velocity_snapshots.ipynb)  
     
+    Snapshots of daily averages (between day 1 and day 15) of U and V velocities. Plots can be set for different depths. To be used in conjunction with animations_horizontal_velocities.ipynb  
+
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
+* ##[animations_horizontal_velocities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_horizontal_velocities.ipynb)  
+    
+    Animations of daily averages U and V velocities. Each animation has subplots representing various depths.  
+
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
