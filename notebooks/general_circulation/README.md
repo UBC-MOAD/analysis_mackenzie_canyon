@@ -11,6 +11,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
+* ##[horizontal_velocity_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/horizontal_velocity_snapshots.ipynb)  
+    
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
