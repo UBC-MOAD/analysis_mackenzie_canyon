@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
+    Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
+
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
