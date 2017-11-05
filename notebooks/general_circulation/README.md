@@ -21,6 +21,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
 
+* ##[animations_U_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_U_top_profiles.ipynb)  
+    
+    November: Animations of the horizontal velocity (U) profiles at different depths using pcolormesh and contour lines.  
+
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
@@ -36,6 +40,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[animations_SaltAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_SaltAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
+
+* ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
+    
+    November: Animations of the horizontal velocity (V) profiles at different depths using pcolormesh and contour lines.  
 
 * ##[animations_TempAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_TempAnom_top_cross_profiles.ipynb)  
     
