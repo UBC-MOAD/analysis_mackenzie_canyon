@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import os,fnmatch
 import numpy as np
+from matplotlib.ticker import MultipleLocator
 
 # ------------------------------------------------------------------------------------------------
 
@@ -16,7 +17,7 @@ def get_files(dirname, fname, grid):
 
 # ------------------------------------------------------------------------------------------------
 
-def set_plots(fig, axes, axa):
+def set_plots(fig, axes, axa, axb, ttl):
     ''' Applies formatting to all subplots.
     Applies unique formatting to the wind subplot,
     including labels. Applies spacings in figure.
@@ -25,46 +26,59 @@ def set_plots(fig, axes, axa):
         for pos in ['top', 'bottom', 'right', 'left']:
             ax.spines[pos].set_edgecolor('gray')
     
-    for pos in ['top', 'bottom', 'right', 'left']:
-        axa.spines[pos].set_edgecolor('gray')
-        axa.spines[pos].set_visible(False) 
-        
-    axa.set_xlabel('Time [hrs]', fontsize=13)
-    axa.set_ylabel('Wind Stress [Nm$^{-2}$]', fontsize=13)
-    axa.grid(b=True, which='major', color='gray', linestyle='-')
-    axa.xaxis.grid(b=True, which='minor', color='gray', linestyle='-')
-    axa.minorticks_on()
-    axa.xaxis.set_ticks_position('none')
-    axa.yaxis.set_ticks_position('none')
+    #for pos in ['top', 'bottom', 'right', 'left']:
+    #    axa.spines[pos].set_edgecolor('gray')
+    #    axa.spines[pos].set_visible(False) 
+    
+    axa.set_ylabel('Wind Stress\n[Nm$^{-2}$]', fontsize=15)
+    axb.set_ylabel('Incoming Velocity\n[m$^{-1}$]', fontsize=15)
+     
+    for ax in (axa, axb):
+        ax.set_xlabel('Time [hrs]', fontsize=13)
+        ml = MultipleLocator(24)
+        ax.xaxis.set_minor_locator(ml)
+        ax.xaxis.grid(which='minor', color='gray', linestyle='-', linewidth=0.5)
+        ax.minorticks_on()
+        ax.xaxis.set_ticks_position('none')
+        ax.yaxis.set_ticks_position('none')
     
     plt.tight_layout(h_pad=0.9, w_pad=0.9, rect=[0, 0, 1, 0.96])
-    return fig, axes, axa
+    fig.suptitle(ttl, fontsize=24)
+    plt.subplots_adjust(top=0.92)
+    return fig, axes, axa, axb
 
 # ------------------------------------------------------------------------------------
 
-def set_plots_after_clear(ax, title, depm, fxn):
+def set_plots_after_clear(ax, depm, fxn):
     ''' Re-applies formatting and labels after the 
     subplots are cleared so that the animation does not
     draw over a previous snapshot.
     '''
-    ax.set_xlabel('X Indices (Child)', fontsize=13)
+    ax.set_xlabel('Alongshore Distance [km]', fontsize=15)
     if fxn == 'top':
-        ax.set_ylabel('Y Indices (Child)', fontsize=13, labelpad=0.1)
+        ax.set_ylabel('Cross-shore Distance [km]', fontsize=15, labelpad=0.1)
     elif fxn == 'cross':
-        ax.set_ylabel('Z Indices (Child)', fontsize=13, labelpad=0.1)
+        ax.set_ylabel('Z Indices', fontsize=15, labelpad=0.1)
     ax.xaxis.set_ticks_position('none')
     ax.yaxis.set_ticks_position('none')
-    ax.set_title(title + str(int(depm)), fontsize=20)
+    ax.set_title('depth [m]=' + str(int(depm)), fontsize=20)
+    #plt.setp(ax.get_xticklabels(), visible=False)
+    #plt.setp(ax.get_yticklabels(), visible=False)
+    #ax.tick_params(axis='both', which='both', length=0)
     return ax
 
 # ------------------------------------------------------------------------------------
 
-def set_xy(ax, var_array):
+def set_xy(ax, var_array, flag):
     ''' Makes x and y arrays and applies limits
     to top view subplots.
     '''
     xs = np.arange(var_array.shape[-1])
     ys = np.arange(var_array.shape[-2])
+    if flag == 'childkm':
+        xs, ys = xs * 2/3, ys * 2/3
+    else:
+        pass
     ax.set_xlim([0, xs[-1]]); ax.set_ylim([0, ys[-1]])
     return ax, xs, ys
 
