@@ -31,7 +31,7 @@ def set_plots(fig, axes, axa, axb, ttl):
     #    axa.spines[pos].set_visible(False) 
     
     axa.set_ylabel('Wind Stress\n[Nm$^{-2}$]', fontsize=15)
-    axb.set_ylabel('Incoming Velocity\n[m$^{-1}$]', fontsize=15)
+    axb.set_ylabel('Incoming Velocity\n[ms$^{-1}$]', fontsize=15)
      
     for ax in (axa, axb):
         ax.set_xlabel('Time [hrs]', fontsize=13)
@@ -77,6 +77,8 @@ def set_xy(ax, var_array, flag):
     ys = np.arange(var_array.shape[-2])
     if flag == 'childkm':
         xs, ys = xs * 2/3, ys * 2/3
+    elif flag == 'childm':
+        xs, ys = xs * 2000/3, ys * 2000/3
     else:
         pass
     ax.set_xlim([0, xs[-1]]); ax.set_ylim([0, ys[-1]])
