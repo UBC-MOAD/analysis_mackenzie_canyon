@@ -29,6 +29,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
 
+* ##[story_panels_salinity_velocities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/story_panels_salinity_velocities.ipynb)  
+    
 * ##[animations_velocities_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_velocities_depths.ipynb)  
     
     Animations of daily averages U, V, and W velocities. Each animation has subplots representing various depths.  
@@ -48,6 +50,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[animations_TempAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_TempAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of temperature anomaly and isotherms using pcolormesh and contour lines.  
+
+* ##[animations_S_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_S_top_profiles.ipynb)  
+    
+    November: Animations of the salinity anomaly profiles at different depths using pcolormesh and contour lines.  
 
 * ##[velocities_depths_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_depths_snapshots.ipynb)  
     
