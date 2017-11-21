@@ -43,6 +43,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
 
+* ##[incoming_velocity_windstress.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_windstress.ipynb)  
+    
+    Finding a wind stress that produces realistic Mackenzie Shelf current velocities.  
+
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
     November: Animations of the horizontal velocity (V) profiles at different depths using pcolormesh and contour lines.  
