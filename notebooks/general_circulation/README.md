@@ -11,12 +11,18 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
+* ##[Untitled.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Untitled.ipynb)  
+    
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
     Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
 
 * ##[speed_depths_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/speed_depths_snapshots.ipynb)  
     
+* ##[wind_stress_oscillations.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wind_stress_oscillations.ipynb)  
+    
+    Finding a frequency at which we can eliminate the inertial oscillations.  
+
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
@@ -37,17 +43,19 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[salinity_anomaly_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/salinity_anomaly_depth_snapshots.ipynb)  
     
+* ##[windstress_incoming_velocity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/windstress_incoming_velocity.ipynb)  
+    
+    Finding a wind stress that produces realistic Mackenzie Shelf current velocities.  
+
 * ##[incoming_velocity_outside.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_outside.ipynb)  
     
 * ##[velocities_parent_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_parent_snapshots.ipynb)  
     
+    Daily snapshots of parent, child, and both profiles for u velocity to find which side is modified and if shows up in parent.  
+
 * ##[animations_SaltAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_SaltAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
-
-* ##[incoming_velocity_windstress.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_windstress.ipynb)  
-    
-    Finding a wind stress that produces realistic Mackenzie Shelf current velocities.  
 
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
