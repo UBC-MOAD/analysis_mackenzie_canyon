@@ -27,17 +27,21 @@ def get_vars_at_depth(dirname, fname, dep_ind):
     filesU = general_functions.get_files(dirname, fname, 'grid_U')        
     filesV = general_functions.get_files(dirname, fname, 'grid_V')
     filesW = general_functions.get_files(dirname, fname, 'grid_W')
+    filesT = general_functions.get_files(dirname, fname, 'grid_T')
     print('files')
     
     y,x = slice(1,-1,None), slice(1,-1,None)
 
-    with scDataset(filesU) as dsU, scDataset(filesV) as dsV, scDataset(filesW) as dsW:
+    with scDataset(filesU) as dsU, scDataset(filesV) as dsV, scDataset(filesW) as dsW, scDataset(filesT) as dsT:
         vozocrtx0 = dsU.variables['vozocrtx'][:,dep_ind,y,x]
         print('U')
         vomecrty0 = dsV.variables['vomecrty'][:,dep_ind,y,x]
         print('V')
         vovecrtz0 = dsW.variables['vovecrtz'][:,dep_ind,y,x]
         print('W')
+        vosaline0 = dsT.variables['vosaline'][:, dep_ind, y, x]
+        vosaline0_orig = dsT.variables['vosaline'][0, dep_ind, y, x]
+        print('S')
         sozotaux = dsU.variables['sozotaux'][:,0,0]
         depthu = dsU.variables['depthu'][:]
 
@@ -49,12 +53,15 @@ def get_vars_at_depth(dirname, fname, dep_ind):
     umask = np.tile(umask0, (len(sozotaux), 1, 1))
     vmask = np.tile(vmask0, (len(sozotaux), 1, 1))
     tmask = np.tile(tmask0, (len(sozotaux), 1, 1))
+    tmask_orig = np.tile(tmask0, (1, 1, 1))  
 
     vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
     vomecrty = np.ma.array(vomecrty0, mask=1 - vmask)
     vovecrtz = np.ma.array(vovecrtz0, mask=1 - tmask)
+    vosaline = np.ma.array(vosaline0, mask=1 - tmask)
+    vosaline_orig = np.ma.array(vosaline0_orig, mask=1 - tmask_orig)
     
-    return vozocrtx, vomecrty, vovecrtz, umask, vmask, tmask, depthu, sozotaux
+    return vozocrtx, vomecrty, vovecrtz, vosaline, vosaline_orig, umask, vmask, tmask, depthu, sozotaux
 
 def get_vars_for_box(dirname, fname, x_start, x_end, y_start, y_end):
     
@@ -76,6 +83,42 @@ def get_vars_for_box(dirname, fname, x_start, x_end, y_start, y_end):
     vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
     
     return vozocrtx, umask, umask_all, depthu, sozotaux
+
+def get_sal_cross_mer(dirname, fname, x_ind, time_ind, z_cut):
+    
+    filesT = general_functions.get_files(dirname, fname, 'grid_T')
+    
+    y = slice(1,-1,None)
+            
+    with scDataset(filesT) as dsT:
+        vosaline0 = dsT.variables['vosaline'][time_ind, :z_cut, y, x_ind]
+        deptht_cm = dsT.variables['deptht'][:z_cut]
+        
+    with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
+        tmask0 = dsM.variables['tmask'][0, :z_cut, y, x_ind]
+        
+    tmask_cm = np.tile(tmask0, (1, 1, 1))  
+    vosaline_cm = np.ma.array(vosaline0, mask=1 - tmask_cm)
+    
+    return vosaline_cm, tmask_cm, deptht_cm
+
+def get_sal_cross_zon(dirname, fname, y_ind, time_ind, z_cut):
+    
+    filesT = general_functions.get_files(dirname, fname, 'grid_T')
+    
+    x = slice(1,-1,None)
+        
+    with scDataset(filesT) as dsT:
+        vosaline0 = dsT.variables['vosaline'][time_ind, :z_cut, y_ind, x]
+        deptht_cz = dsT.variables['deptht'][:z_cut]
+        
+    with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
+        tmask0 = dsM.variables['tmask'][0, :z_cut, y_ind, x]
+        
+    tmask_cz = np.tile(tmask0, (1, 1, 1))  
+    vosaline_cz = np.ma.array(vosaline0, mask=1 - tmask_cz)
+    
+    return vosaline_cz, tmask_cz, deptht_cz
 
 # --------------------------------------------------------------------------------------
 
@@ -220,7 +263,7 @@ def plot_speed_pcolor_depth(vozocrtx, vomecrty, umask, depth, dep_ind, vmin, vma
     plt.subplots_adjust(top=0.95)
     return fig
 
-def plot_story(umask_all, y_start, y_end, x_start, x_end, dep_start, dep_end, avgU_absolute, sozotaux):
+def plot_incoming_velocity(umask_all, y_start, y_end, x_start, x_end, dep_start, dep_end, avgU_absolute, sozotaux):
     cmap = LinearSegmentedColormap.from_list('mycmap', ['wheat', 'white'])
     
     convert_to_distance = 2/3 
@@ -281,5 +324,71 @@ def plot_story(umask_all, y_start, y_end, x_start, x_end, dep_start, dep_end, av
     
     print('min unsmoothed: ', avgU_absolute.min())
     print('min smoothed: ', avgU_absolute_smoothed.min())
+    return fig
+
+def plot_vel_sal_story(time_ind, depth, dep_ind, x_ind, y_ind, vozocrtx, vomecrty, vovecrtz, salt_anom, vosaline_cm, vosaline_cz, deptht_cm, deptht_cz):
+
+    cmap = plt.get_cmap(cm.RdBu_r)
+    cmap.set_bad('wheat')
+
+    fig, ([ax1, ax2, ax3], [ax4, ax5, ax6]) = plt.subplots(2, 3, figsize=(20, 16))
+
+    levelsU = np.arange(-0.5, 0.6, 0.1)
+    levelsV = np.arange(-0.5, 0.6, 0.1)
+    levelsW = np.arange(-0.001, 0.0015, 0.0005)
+    levelsSA = np.arange(-2, 2.5, 0.5)
+
+    axes = [ax1, ax2, ax3, ax4]
+    values = [vozocrtx, vomecrty, vovecrtz, salt_anom]
+    levels_all = [levelsU, levelsV, levelsW, levelsSA]
+    ttls = ['u velocity [m s$^{-1}$]', 'v velocity [m s$^{-1}$]', 'w velocity [m s$^{-1}$]', 'salinity anomaly [g kg$^{-1}$]']
+
+    for ax, value, levels, ttl, n in zip(axes, values, levels_all, ttls, np.arange(4)):
+        ax, xs, ys = general_functions.set_xy(ax, value, 'childm')
+        P = ax.pcolormesh(xs, ys, value[time_ind, :, :], vmin = levels[0], vmax = levels[-1], cmap=cmap)
+        cs = ax.contour(xs, ys, value[time_ind, :, :], levels = levels, colors='k')
+        ax.clabel(cs, inline=1, fontsize=10)
+        ax.set_aspect(aspect='equal')
+        ax.set_title(ttl, fontsize=20)
+        ax.set_ylabel('Cross-shore Distance [m]', fontsize=13)
+        ax.set_xlabel('Alongshore Distance [m]', fontsize=13)
+        fig.colorbar(P, ax=ax, orientation='horizontal', fraction=0.05, pad=0.03)
+
+    levels = np.arange(21,35, 0.2)
+    cmap = plt.get_cmap(cmo.cm.phase)
+
+    c5 = ax5.contourf(ys, deptht_cm, vosaline_cm, levels = levels, cmap = cmap)
+    ax5.contour(ys, deptht_cm, vosaline_cm, levels = levels, colors = 'k', alpha=0.8)
+    ax5.set_xlim([0, 100000])
+    ax5.set_ylim([deptht_cm[-1], 0])
+    ax5.set_aspect(aspect=1000)
+    ax5.set_xlabel('Cross-shore Distance [m]', fontsize=13)
+
+    c6 = ax6.contourf(xs, deptht_cz, vosaline_cz, levels = levels, cmap = cmap)
+    ax6.contour(xs, deptht_cz, vosaline_cz, levels = levels, colors = 'k', alpha=0.8)
+    ax6.set_xlim([0, xs[-1]])
+    ax6.set_ylim([deptht_cz[-1], 0])
+    ax6.set_aspect(aspect=1600)
+    ax6.set_xlabel('Alongshore Distance [m]', fontsize=13)
+
+    for ax, c, n in zip([ax5, ax6], [c5, c6], np.arange(2)):
+        ax.axhline(depth[dep_ind], c='w', lw=2)
+        cbar = plt.colorbar(c, ax=ax, fraction=0.05, pad=0.02, orientation='vertical')
+        cbar.ax.set_yticklabels(cbar.ax.get_yticklabels(), rotation=0, fontsize=12)
+        tick_locator = ticker.MaxNLocator(nbins=5)
+        cbar.locator = tick_locator
+        cbar.update_ticks()
+        ax.set_ylabel('Depth [m]', fontsize=13)
+
+    ax4.axhline(ys[y_ind], c='k', lw=1.5)
+    ax4.axvline(xs[x_ind], c='k', lw=1.5)
+
+    ax5.set_title('Salinity cross-section in Y direction', fontsize=20)
+    ax6.set_title('Salinity cross-section in X direction', fontsize=20)
+
+    plt.tight_layout(h_pad=1.4, w_pad=0.9)
+    fig.suptitle('Results at depth = '+str(int(depth[dep_ind]))+' m and time = '+str(time_ind) + ' hrs', fontsize=24)
+    plt.subplots_adjust(top=0.95)
+    
     return fig
 
