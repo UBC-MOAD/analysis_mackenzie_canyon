@@ -11,8 +11,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
-* ##[Untitled.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Untitled.ipynb)  
-    
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
     Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
@@ -42,6 +40,8 @@ Descriptions under the links below are from the first cell of the notebooks
     Animations of daily averages U, V, and W velocities. Each animation has subplots representing various depths.  
 
 * ##[salinity_anomaly_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/salinity_anomaly_depth_snapshots.ipynb)  
+    
+* ##[quicklook_ideal_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_base.ipynb)  
     
 * ##[windstress_incoming_velocity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/windstress_incoming_velocity.ipynb)  
     
