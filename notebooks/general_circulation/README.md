@@ -53,6 +53,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Daily snapshots of parent, child, and both profiles for u velocity to find which side is modified and if shows up in parent.  
 
+* ##[quicklook_ideal_half.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_half.ipynb)  
+    
 * ##[animations_SaltAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_SaltAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
