@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[quicklook_ideal_double.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_double.ipynb)  
+    
 * ##[animations_UVW_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_UVW_top_profiles.ipynb)  
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
