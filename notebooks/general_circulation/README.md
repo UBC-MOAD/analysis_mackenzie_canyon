@@ -23,6 +23,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Finding a frequency at which we can eliminate the inertial oscillations.  
 
+* ##[issues_with_realistic.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/issues_with_realistic.ipynb)  
+    
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
