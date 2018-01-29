@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[ED_salinity_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/ED_salinity_depth_snapshots.ipynb)  
+    
 * ##[canyonrim_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/canyonrim_ideal.ipynb)  
     
 * ##[extracting_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/extracting_rim.ipynb)  
