@@ -65,6 +65,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
 
+* ##[check_courant.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/check_courant.ipynb)  
+    
+    Jan: Getting an idea of where the Courant number should be for the realistic (and ideal) given the new winds.  
+
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
     November: Animations of the horizontal velocity (V) profiles at different depths using pcolormesh and contour lines.  
