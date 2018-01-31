@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[quicklook_real_half.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_real_half.ipynb)  
+    
 * ##[quicklook_ideal_double.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_double.ipynb)  
     
 * ##[animations_UVW_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_UVW_top_profiles.ipynb)  
@@ -41,6 +43,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     November: Animations of the horizontal velocity (U) profiles at different depths using pcolormesh and contour lines.  
 
+* ##[quicklook_real_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_real_base.ipynb)  
+    
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
