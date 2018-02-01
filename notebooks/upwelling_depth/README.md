@@ -7,13 +7,23 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[original_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_ideal.ipynb)  
+    
 * ##[isohalines_along_axis_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isohalines_along_axis_ideal.ipynb)  
     
-* ##[ED_salinity_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/ED_salinity_depth_snapshots.ipynb)  
+* ##[original_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_real.ipynb)  
+    
+* ##[wvel_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_ideal.ipynb)  
+    
+* ##[make_functions_original_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/make_functions_original_depths.ipynb)  
+    
+* ##[isohalines_along_axis_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isohalines_along_axis_real.ipynb)  
     
 * ##[canyonrim_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/canyonrim_ideal.ipynb)  
     
 * ##[extracting_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/extracting_rim.ipynb)  
+    
+* ##[wvel_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_real.ipynb)  
     
 
 ##License
