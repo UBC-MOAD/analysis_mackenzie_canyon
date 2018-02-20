@@ -13,11 +13,19 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[original_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_real.ipynb)  
     
+* ##[e3t.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/e3t.ipynb)  
+    
 * ##[wvel_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_ideal.ipynb)  
+    
+* ##[OSM_saltanomaly.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_saltanomaly.ipynb)  
     
 * ##[make_functions_original_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/make_functions_original_depths.ipynb)  
     
+* ##[OSM_originaldepth.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_originaldepth.ipynb)  
+    
 * ##[isohalines_along_axis_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isohalines_along_axis_real.ipynb)  
+    
+* ##[checking_high_salinities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities.ipynb)  
     
 * ##[canyonrim_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/canyonrim_ideal.ipynb)  
     
