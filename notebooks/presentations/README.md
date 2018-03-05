@@ -13,6 +13,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[conditions.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/presentations/conditions.ipynb)  
     
+* ##[bathymetry_3D.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/presentations/bathymetry_3D.ipynb)  
+    
 
 ##License
 
