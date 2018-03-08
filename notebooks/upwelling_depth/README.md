@@ -15,6 +15,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[e3t.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/e3t.ipynb)  
     
+* ##[checking_high_salinities_part3.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part3.ipynb)  
+    
 * ##[wvel_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_ideal.ipynb)  
     
 * ##[OSM_saltanomaly.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_saltanomaly.ipynb)  
