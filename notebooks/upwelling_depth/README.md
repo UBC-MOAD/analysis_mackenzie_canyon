@@ -17,6 +17,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[checking_high_salinities_part3.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part3.ipynb)  
     
+    Part 3 - Salinity issues: ideal_double_bfrimp, ideal_double_cen2  
+
 * ##[wvel_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_ideal.ipynb)  
     
 * ##[OSM_saltanomaly.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_saltanomaly.ipynb)  
@@ -29,8 +31,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[checking_high_salinities_part2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part2.ipynb)  
     
+    Part 2 - Salinity issues: ideal_base (ts), ideal_base_nambfr, ideal_base_e3zps, ideal_double_e3zps.  
+
 * ##[checking_high_salinities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities.ipynb)  
     
+    Part 1 - Salinity issues: real_half, real_base, ideal_base_flt, ideal_double_flt, ideal_half (ts), ideal_base (ts), ideal_double (ts) ideal_base_nambfr, ideal_base_e3zps, ideal_double_e3zps  
+
 * ##[canyonrim_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/canyonrim_ideal.ipynb)  
     
 * ##[extracting_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/extracting_rim.ipynb)  
