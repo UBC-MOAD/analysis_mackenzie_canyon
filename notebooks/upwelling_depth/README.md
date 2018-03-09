@@ -17,7 +17,7 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[checking_high_salinities_part3.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part3.ipynb)  
     
-    Part 3 - Salinity issues: ideal_double_bfrimp, ideal_double_cen2  
+    Part 3 - Salinity issues: ideal_double_bfrimp, ideal_double_cen2, ideal_double_tvdzts, ideal_double_muscl, ideal_double_muscl2  
 
 * ##[wvel_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_ideal.ipynb)  
     
