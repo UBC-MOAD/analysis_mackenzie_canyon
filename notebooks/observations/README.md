@@ -7,11 +7,13 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[model_temperature_salinity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/model_temperature_salinity.ipynb)  
+* ##[observations_sections_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/observations_sections_scatter.ipynb)  
     
 * ##[loading_data.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/loading_data.ipynb)  
     
-* ##[data_temperature_salinity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/data_temperature_salinity.ipynb)  
+* ##[model_sections_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/model_sections_scatter.ipynb)  
+    
+* ##[salinity_slices_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/salinity_slices_scatter.ipynb)  
     
 
 ##License
