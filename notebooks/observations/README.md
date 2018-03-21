@@ -7,13 +7,13 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[observations_sections_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/observations_sections_scatter.ipynb)  
+* ##[MvO_S_slices_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/MvO_S_slices_scatter.ipynb)  
+    
+* ##[MvO_TS_cross_sections.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/MvO_TS_cross_sections.ipynb)  
     
 * ##[loading_data.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/loading_data.ipynb)  
     
-* ##[model_sections_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/model_sections_scatter.ipynb)  
-    
-* ##[salinity_slices_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/salinity_slices_scatter.ipynb)  
+* ##[O_first_look.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/O_first_look.ipynb)  
     
 
 ##License
