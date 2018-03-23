@@ -11,9 +11,11 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[MvO_TS_cross_sections.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/MvO_TS_cross_sections.ipynb)  
     
-* ##[loading_data.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/loading_data.ipynb)  
-    
 * ##[O_first_look.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/O_first_look.ipynb)  
+    
+* ##[O_data_overview.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/O_data_overview.ipynb)  
+    
+* ##[MvO_V_slices_scatter.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/observations/MvO_V_slices_scatter.ipynb)  
     
 
 ##License
