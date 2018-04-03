@@ -9,18 +9,28 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[original_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_ideal.ipynb)  
     
+    February: Ideal cases - Original depth and depth anomaly.  
+
 * ##[isohalines_along_axis_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isohalines_along_axis_ideal.ipynb)  
     
+    February: Ideal cases - Salinity cross-shore cross-sections with isohalines.  
+
 * ##[checking_high_salinities_part4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part4.ipynb)  
     
     Part 4 - Salinity issues: ideal_double_muscl (15 days, full and partial steps)  
 
 * ##[Seminar_Upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Seminar_Upwelling.ipynb)  
     
+    March: Images for PO Seminar presentation - upwelling depth slices animations.   
+
 * ##[original_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_real.ipynb)  
     
+    February: Real cases - Original depth and depth anomaly.  
+
 * ##[e3t.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/e3t.ipynb)  
     
+    February: Checking thickness of grid cells, including partial steps.  
+
 * ##[checking_high_salinities_part3.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part3.ipynb)  
     
     Part 3 - Salinity issues: ideal_double_bfrimp, ideal_double_cen2, ideal_double_tvdzts, ideal_double_muscl, ideal_double_muscl2  
@@ -29,12 +39,18 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[OSM_saltanomaly.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_saltanomaly.ipynb)  
     
+    February: Images for Ocean Sciences poster - salinity anomaly pcolormesh slices.   
+
 * ##[make_functions_original_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/make_functions_original_depths.ipynb)  
     
 * ##[OSM_originaldepth.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_originaldepth.ipynb)  
     
+    February: Images for Ocean Sciences poster - upwelling depth pcolormesh slices.   
+
 * ##[isohalines_along_axis_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isohalines_along_axis_real.ipynb)  
     
+    February: Real cases - Salinity cross-shore cross-sections with isohalines.  
+
 * ##[checking_high_salinities_part2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part2.ipynb)  
     
     Part 2 - Salinity issues: ideal_base (ts), ideal_base_nambfr, ideal_base_e3zps, ideal_double_e3zps.  
