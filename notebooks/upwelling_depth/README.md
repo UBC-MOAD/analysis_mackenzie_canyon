@@ -11,6 +11,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[isohalines_along_axis_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isohalines_along_axis_ideal.ipynb)  
     
+* ##[checking_high_salinities_part4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part4.ipynb)  
+    
+    Part 4 - Salinity issues: ideal_double_muscl (15 days, full and partial steps)  
+
+* ##[Seminar_Upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Seminar_Upwelling.ipynb)  
+    
 * ##[original_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_real.ipynb)  
     
 * ##[e3t.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/e3t.ipynb)  
