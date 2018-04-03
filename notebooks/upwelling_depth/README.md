@@ -15,6 +15,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     February: Ideal cases - Salinity cross-shore cross-sections with isohalines.  
 
+* ##[original_upwelling_depth_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_upwelling_depth_rim.ipynb)  
+    
+    May: Original ideal canyon rim and the depth of upwelling along it.  
+
 * ##[checking_high_salinities_part4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities_part4.ipynb)  
     
     Part 4 - Salinity issues: ideal_double_muscl (15 days, full and partial steps)  
@@ -22,6 +26,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[Seminar_Upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Seminar_Upwelling.ipynb)  
     
     March: Images for PO Seminar presentation - upwelling depth slices animations.   
+
+* ##[scaling_upwelling_depth_mcknz_barkley.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/scaling_upwelling_depth_mcknz_barkley.ipynb)  
+    
+    May: Comparison between Mackenzie and Barkley of the scaled and modelled depth of upwelling.  
 
 * ##[original_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_depth_real.ipynb)  
     
@@ -42,6 +50,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[OSM_saltanomaly.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_saltanomaly.ipynb)  
     
     February: Images for Ocean Sciences poster - salinity anomaly pcolormesh slices.   
+
+* ##[scaling_upwelling_depth.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/scaling_upwelling_depth.ipynb)  
+    
+    May: Scale analysis for depth of upwelling in Mackenzie Canyon (including incoming velocity and stratification).  
 
 * ##[make_functions_original_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/make_functions_original_depths.ipynb)  
     
