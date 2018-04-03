@@ -9,10 +9,6 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[agrif_first_look.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_first_look.ipynb)  
     
-* ##[depth_of_upwelling_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling_rim.ipynb)  
-    
-    May: Outline of the canyon rim and the depth of upwelling along it (for one time and time range).  
-
 * ##[new_resolution.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/new_resolution.ipynb)  
     
     June: Order of process for new resolution.  
@@ -21,24 +17,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     July: Bathymetry, coordinates, bdy and init conditions, and namelist changes for configuration for AGRIF.  
 
-* ##[flux_planes.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/flux_planes.ipynb)  
-    
-    June: Creating flux containers/planes and looking at scaling factors.  
-
-* ##[AGRIF_notes.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/AGRIF_notes.ipynb)  
-    
-    Notes from my meeting with Michael about how to run the Mackenzie model with AGRIF.  
-
-* ##[MackBark_model_scale_Z.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/MackBark_model_scale_Z.ipynb)  
-    
-    May: Comparison between Mackenzie and Barkley of the scaled and modelled depth of upwelling.  
-
 * ##[agrif_north_bdy.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_north_bdy.ipynb)  
     
-* ##[depth_of_upwelling_scale.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/depth_of_upwelling_scale.ipynb)  
-    
-    May: Scale analysis for depth of upwelling in Mackenzie Canyon (including incoming velocity and stratification).  
-
 * ##[waitjob_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/waitjob_runs.ipynb)  
     
 * ##[isopycnal_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/isopycnal_profiles.ipynb)  
