@@ -17,12 +17,16 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[OSM_streamlines.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/OSM_streamlines.ipynb)  
     
+    February: Images for Ocean Sciences poster - speed pcolormesh slices.  
+
 * ##[animations_UVW_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_UVW_top_profiles.ipynb)  
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
 * ##[Seminar_Speeds.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Speeds.ipynb)  
     
+    March: Images for PO Seminar presentation - speed slices animations.  
+
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
     Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
@@ -35,6 +39,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[Seminar_Wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Wave.ipynb)  
     
+    March: Images for PO Seminar presentation - W vel slices animations.  
+
 * ##[wind_stress_oscillations.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wind_stress_oscillations.ipynb)  
     
     Finding a frequency at which we can eliminate the inertial oscillations.  
@@ -49,6 +55,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[OSM_wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/OSM_wave.ipynb)  
     
+    February: Images for Ocean Sciences poster - W vel pcolormesh slices.  
+
 * ##[incoming_velocity_shelf_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf_real.ipynb)  
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
