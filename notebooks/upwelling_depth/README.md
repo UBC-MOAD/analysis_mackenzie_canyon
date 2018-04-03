@@ -87,6 +87,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     January: Real cases - Depth slices of W velocity.  
 
+* ##[isopycnal_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/isopycnal_profiles.ipynb)  
+    
+    Calculating density using gsw toolbox and matlab-python wrappers.  
+
 
 ##License
 
