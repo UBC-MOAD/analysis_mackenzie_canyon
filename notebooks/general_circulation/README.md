@@ -9,8 +9,12 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[quicklook_real_half.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_real_half.ipynb)  
     
+    January: Real/Half - incoming velocity, u, v, streamlines, speeds, story.  
+
 * ##[quicklook_ideal_double.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_double.ipynb)  
     
+    December: Ideal/Double - incoming velocity, u, v, streamlines, speeds, story.  
+
 * ##[OSM_streamlines.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/OSM_streamlines.ipynb)  
     
 * ##[animations_UVW_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_UVW_top_profiles.ipynb)  
@@ -25,6 +29,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[quicklook_ideal_half_ts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_half_ts.ipynb)  
     
+    January: Ideal/Half (time splitting) - incoming velocity, u, v, streamlines, speeds, story.  
+
 * ##[speed_depths_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/speed_depths_snapshots.ipynb)  
     
 * ##[Seminar_Wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Wave.ipynb)  
@@ -55,6 +61,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[quicklook_real_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_real_base.ipynb)  
     
+    January: Real/Base - incoming velocity, u, v, streamlines, speeds, story.  
+
 * ##[incoming_velocity_winds_all.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_winds_all.ipynb)  
     
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
@@ -71,6 +79,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
 * ##[quicklook_ideal_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_base.ipynb)  
     
+    December: Ideal/Base - incoming velocity, u, v, streamlines, speeds, story.  
+
 * ##[windstress_incoming_velocity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/windstress_incoming_velocity.ipynb)  
     
     Finding a wind stress that produces realistic Mackenzie Shelf current velocities.  
@@ -83,6 +93,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[quicklook_ideal_half.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_half.ipynb)  
     
+    December: Ideal/Half - incoming velocity, u, v, streamlines, speeds, story.  
+
 * ##[animations_SaltAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_SaltAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
