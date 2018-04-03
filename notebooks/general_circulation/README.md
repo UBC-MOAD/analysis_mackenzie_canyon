@@ -47,6 +47,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
 
+* ##[wave_speed_and_anims_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wave_speed_and_anims_base.ipynb)  
+    
 * ##[animations_U_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_U_top_profiles.ipynb)  
     
     November: Animations of the horizontal velocity (U) profiles at different depths using pcolormesh and contour lines.  
@@ -89,8 +91,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Jan: Getting an idea of where the Courant number should be for the realistic (and ideal) given the new winds.  
 
-* ##[animation_incoming_slope_wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animation_incoming_slope_wave.ipynb)  
-    
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
     November: Animations of the horizontal velocity (V) profiles at different depths using pcolormesh and contour lines.  
