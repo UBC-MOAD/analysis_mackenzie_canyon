@@ -37,6 +37,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[speed_depths_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/speed_depths_snapshots.ipynb)  
     
+    November: Depth slices of speed with cmapIAM.  
+
 * ##[Seminar_Wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Wave.ipynb)  
     
     March: Images for PO Seminar presentation - W vel slices animations.  
@@ -63,6 +65,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[wave_speed_and_anims_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wave_speed_and_anims_base.ipynb)  
     
+    April: Speed of wave? Cross-sections of U, V, W, speeds. Finding speed using distance between stations and time elapsed for signal to appear in each.  
+
 * ##[animations_U_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_U_top_profiles.ipynb)  
     
     November: Animations of the horizontal velocity (U) profiles at different depths using pcolormesh and contour lines.  
@@ -73,18 +77,24 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[incoming_velocity_winds_all.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_winds_all.ipynb)  
     
+    March: Story of winds for 3 cases and incoming velocitity for 6 cases.  
+
 * ##[animations_W_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
 
 * ##[story_panels_salinity_velocities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/story_panels_salinity_velocities.ipynb)  
     
+    November: Creating the story panels - U, V, W, salt, cross-sections alongshore and cross-shore.  
+
 * ##[animations_velocities_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_velocities_depths.ipynb)  
     
     Animations of daily averages U, V, and W velocities. Each animation has subplots representing various depths.  
 
 * ##[salinity_anomaly_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/salinity_anomaly_depth_snapshots.ipynb)  
     
+    November - Depth slices of salinity anomaly.  
+
 * ##[quicklook_ideal_base.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_ideal_base.ipynb)  
     
     December: Ideal/Base - incoming velocity, u, v, streamlines, speeds, story.  
@@ -95,6 +105,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[incoming_velocity_outside.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_outside.ipynb)  
     
+    Incoming velocity, but too far out. Use incoming_velocity_shelf.ipynb.  
+
 * ##[velocities_parent_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_parent_snapshots.ipynb)  
     
     Daily snapshots of parent, child, and both profiles for u velocity to find which side is modified and if shows up in parent.  
