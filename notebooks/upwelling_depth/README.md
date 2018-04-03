@@ -37,12 +37,16 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[wvel_depth_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_ideal.ipynb)  
     
+    January: Ideal cases - Depth slices of W velocity.  
+
 * ##[OSM_saltanomaly.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_saltanomaly.ipynb)  
     
     February: Images for Ocean Sciences poster - salinity anomaly pcolormesh slices.   
 
 * ##[make_functions_original_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/make_functions_original_depths.ipynb)  
     
+    February: Making functions for original_depth_ideal/real.ipynb, bokeh.  
+
 * ##[OSM_originaldepth.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/OSM_originaldepth.ipynb)  
     
     February: Images for Ocean Sciences poster - upwelling depth pcolormesh slices.   
@@ -61,10 +65,16 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[canyonrim_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/canyonrim_ideal.ipynb)  
     
+    January: Extracting the ideal canyon rim using canyon and no-canyon bathymetries.  
+
 * ##[extracting_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/extracting_rim.ipynb)  
     
+    December: Original attempt at extracting rims. Realistic is not as clean as Ideal.  
+
 * ##[wvel_depth_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/wvel_depth_real.ipynb)  
     
+    January: Real cases - Depth slices of W velocity.  
+
 
 ##License
 
