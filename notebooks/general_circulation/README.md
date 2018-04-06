@@ -91,6 +91,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Animations of daily averages U, V, and W velocities. Each animation has subplots representing various depths.  
 
+* ##[wave_speed_and_anims_double.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wave_speed_and_anims_double.ipynb)  
+    
+    April: Speed of wave? Cross-sections of U, V, W, speeds. Finding speed using distance between stations and time elapsed for signal to appear in each.  
+
 * ##[salinity_anomaly_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/salinity_anomaly_depth_snapshots.ipynb)  
     
     November - Depth slices of salinity anomaly.  
