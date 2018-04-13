@@ -19,9 +19,9 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[agrif_north_bdy.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_north_bdy.ipynb)  
     
-* ##[waitjob_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/waitjob_runs.ipynb)  
+* ##[agrif_child_extended.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_child_extended.ipynb)  
     
-* ##[isopycnal_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/isopycnal_profiles.ipynb)  
+* ##[waitjob_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/waitjob_runs.ipynb)  
     
 
 ##License
