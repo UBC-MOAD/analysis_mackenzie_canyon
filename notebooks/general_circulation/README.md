@@ -51,6 +51,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Instructions for how to fix the initial conditions files (temperature and salinity) for the child model.  
 
+* ##[jet_velocity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/jet_velocity_ideal.ipynb)  
+    
+    April: **Research Questions 1.A.2** (Ideal)  
+
 * ##[incoming_velocity_shelf.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/incoming_velocity_shelf.ipynb)  
     
     Analysis of the incoming velocity over the shelf on the upstream side of the canyon, identifying the time-dependent and advection driven stages.  
@@ -126,6 +130,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[check_courant.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/check_courant.ipynb)  
     
     Jan: Getting an idea of where the Courant number should be for the realistic (and ideal) given the new winds.  
+
+* ##[shelf_currents_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/shelf_currents_ideal.ipynb)  
+    
+    April: **Research Questions 1.A.1** (Ideal)  
 
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
