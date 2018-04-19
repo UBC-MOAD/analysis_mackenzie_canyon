@@ -146,7 +146,7 @@ def get_uv_at_depth(dirname, fname, dep_ind):
     vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
     vomecrty = np.ma.array(vomecrty0, mask=1 - vmask)
     
-    return vozocrtx, vomecrty, umask, vmask, depthu, depthv, sozotaux
+    return vozocrtx, vomecrty, umask[0, ...], vmask[0, ...], depthu, depthv, sozotaux
 
 def get_1day_avg(vel, day_start, day_end):
     day = slice(day_start*24, day_end*24, None)
@@ -163,8 +163,8 @@ def get_speeds(U_vel, V_vel, arrow):
     vgrid = V_vel[:]
     u_nstg0 = (np.add(ugrid[..., :-1], ugrid[..., 1:]) / 2)[..., 1:, :]
     v_nstg0 = (np.add(vgrid[..., :-1, :], vgrid[..., 1:, :]) / 2)[..., 1:]
-    u_nstg = u_nstg0[::arrow,::arrow]
-    v_nstg = v_nstg0[::arrow,::arrow]
+    u_nstg = u_nstg0[..., ::arrow,::arrow]
+    v_nstg = v_nstg0[..., ::arrow,::arrow]
     x_slice = np.arange(1, ugrid.shape[-1])[::arrow] #changed from 1
     y_slice = np.arange(1, ugrid.shape[-2])[::arrow] #changed from 0
     speeds = np.sqrt(u_nstg**2 + v_nstg**2)
