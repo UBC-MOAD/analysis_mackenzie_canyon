@@ -122,6 +122,32 @@ def get_sal_cross_zon(dirname, fname, y_ind, time_ind, z_cut):
 
 # --------------------------------------------------------------------------------------
 
+def get_uv_at_depth(dirname, fname, dep_ind):
+    
+    filesU = general_functions.get_files(dirname, fname, 'grid_U')        
+    filesV = general_functions.get_files(dirname, fname, 'grid_V')
+    
+    y,x = slice(1,-1,None), slice(1,-1,None)
+
+    with scDataset(filesU) as dsU, scDataset(filesV) as dsV:
+        vozocrtx0 = dsU.variables['vozocrtx'][:,dep_ind,y,x]
+        vomecrty0 = dsV.variables['vomecrty'][:,dep_ind,y,x]
+        sozotaux = dsU.variables['sozotaux'][:,0,0]
+        depthu = dsU.variables['depthu'][:]
+        depthv = dsV.variables['depthv'][:]
+
+    with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
+        umask0 = dsM.variables['umask'][0,dep_ind,y,x]
+        vmask0 = dsM.variables['vmask'][0,dep_ind,y,x]
+
+    umask = np.tile(umask0, (len(sozotaux), 1, 1))
+    vmask = np.tile(vmask0, (len(sozotaux), 1, 1))
+
+    vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
+    vomecrty = np.ma.array(vomecrty0, mask=1 - vmask)
+    
+    return vozocrtx, vomecrty, umask, vmask, depthu, depthv, sozotaux
+
 def get_1day_avg(vel, day_start, day_end):
     day = slice(day_start*24, day_end*24, None)
     vel_day = np.mean(vel[day, ...], axis=0)
@@ -139,10 +165,20 @@ def get_speeds(U_vel, V_vel, arrow):
     v_nstg0 = (np.add(vgrid[..., :-1, :], vgrid[..., 1:, :]) / 2)[..., 1:]
     u_nstg = u_nstg0[::arrow,::arrow]
     v_nstg = v_nstg0[::arrow,::arrow]
-    x_slice = np.arange(1, ugrid.shape[1])[::arrow]
-    y_slice = np.arange(1, ugrid.shape[0])[::arrow]
+    x_slice = np.arange(1, ugrid.shape[-1])[::arrow] #changed from 1
+    y_slice = np.arange(1, ugrid.shape[-2])[::arrow] #changed from 0
     speeds = np.sqrt(u_nstg**2 + v_nstg**2)
     return x_slice, y_slice, u_nstg, v_nstg, speeds
+
+def get_1day_avg_of_speeds(speeds, days):
+    ''' Other functions used to set up this process:
+    quicklook.get_uv_at_depth
+    quicklook.get_speeds
+    '''
+    speeds_daily = np.full([days, speeds.shape[-2], speeds.shape[-1]], np.nan)
+    for d in range(days):
+        speeds_daily[d, :, :] = get_1day_avg(speeds, d, d+1) 
+    return speeds_daily
 
 def calculate_avgU(vozocrtx, dep_start, dep_end):
 
