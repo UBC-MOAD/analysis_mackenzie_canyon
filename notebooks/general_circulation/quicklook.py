@@ -139,6 +139,7 @@ def get_uv_at_depth(dirname, fname, dep_ind):
     with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
         umask0 = dsM.variables['umask'][0,dep_ind,y,x]
         vmask0 = dsM.variables['vmask'][0,dep_ind,y,x]
+        e1u = dsM.variables['e1u'][0, y, x]
 
     umask = np.tile(umask0, (len(sozotaux), 1, 1))
     vmask = np.tile(vmask0, (len(sozotaux), 1, 1))
@@ -146,7 +147,7 @@ def get_uv_at_depth(dirname, fname, dep_ind):
     vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
     vomecrty = np.ma.array(vomecrty0, mask=1 - vmask)
     
-    return vozocrtx, vomecrty, umask[0, ...], vmask[0, ...], depthu, depthv, sozotaux
+    return vozocrtx, vomecrty, umask[0, ...], vmask[0, ...], e1u, depthu, depthv, sozotaux
 
 def get_1day_avg(vel, day_start, day_end):
     day = slice(day_start*24, day_end*24, None)
