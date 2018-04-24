@@ -39,6 +39,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     November: Depth slices of speed with cmapIAM.  
 
+* ##[flow_around_canyon_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/flow_around_canyon_ideal.ipynb)  
+    
+    April: **Research Questions 1.A.4** (Ideal)  
+
 * ##[Seminar_Wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Wave.ipynb)  
     
     March: Images for PO Seminar presentation - W vel slices animations.  
