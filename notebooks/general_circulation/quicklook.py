@@ -149,6 +149,39 @@ def get_uv_at_depth(dirname, fname, dep_ind):
     
     return vozocrtx, vomecrty, umask[0, ...], vmask[0, ...], e1u, depthu, depthv, sozotaux
 
+
+def get_uv_at_depth_day(dirname, fname, dep_ind, day):
+    
+    filesU = general_functions.get_files(dirname, fname, 'grid_U')        
+    filesV = general_functions.get_files(dirname, fname, 'grid_V')
+    
+    y,x = slice(1,-1,None), slice(1,-1,None)
+    time_ind = day*24
+
+    with scDataset(filesU) as dsU, scDataset(filesV) as dsV:
+        vozocrtx0 = dsU.variables['vozocrtx'][time_ind:time_ind+24,dep_ind,y,x]
+        vomecrty0 = dsV.variables['vomecrty'][time_ind:time_ind+24,dep_ind,y,x]
+        sozotaux = dsU.variables['sozotaux'][time_ind:time_ind+24,0,0]
+        depthu = dsU.variables['depthu'][:]
+        depthv = dsV.variables['depthv'][:]
+
+    with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
+        umask0 = dsM.variables['umask'][0,dep_ind,y,x]
+        vmask0 = dsM.variables['vmask'][0,dep_ind,y,x]
+        e1u = dsM.variables['e1u'][0, y, x]
+        
+    umask = np.tile(umask0, (len(sozotaux), 1, 1))
+    vmask = np.tile(vmask0, (len(sozotaux), 1, 1))
+
+    vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
+    vomecrty = np.ma.array(vomecrty0, mask=1 - vmask)
+    
+    vozocrtx_avg = np.mean(vozocrtx, axis=0)
+    vomecrty_avg = np.mean(vomecrty, axis=0)
+    
+    return vozocrtx, vomecrty, vozocrtx_avg, vomecrty_avg, umask[0, ...], vmask[0, ...], e1u, depthu, depthv, sozotaux
+
+
 def get_1day_avg(vel, day_start, day_end):
     day = slice(day_start*24, day_end*24, None)
     vel_day = np.mean(vel[day, ...], axis=0)
