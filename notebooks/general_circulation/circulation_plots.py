@@ -218,8 +218,8 @@ def plot_separation_path(umask, speeds_cross_max, speeds_cross_max_xind, eastmos
         plt.setp(ax.get_yticklabels(), visible=False)
         ax.tick_params(axis='both', which='both', length=0)
         ax.set_aspect(aspect='equal')
-        ax.set_xlim([umask_slice.shape[-1]*0.2, umask_slice.shape[-1]*0.8])
-        ax.set_ylim([umask_slice.shape[-2]*0.1, umask_slice.shape[-2]*0.7])
+        ax.set_xlim([umask_slice.shape[-1]*0.15, umask_slice.shape[-1]*0.85])
+        ax.set_ylim([0, umask_slice.shape[-2]*0.7])
         ax.set_title('Day ' + str(n+1), fontsize=20)
         cbar = fig.colorbar(p, ax=ax, fraction=0.05, orientation='horizontal', pad=0.009)
         cbar.ax.tick_params(labelsize=13)
@@ -248,7 +248,7 @@ def plot_max_speeds_daily(speeds_cross_max, y_break, umask, vmax, depthu, dep_in
     ax8 = plt.subplot2grid((4, 3), (3, 1), rowspan=1)
     ax9 = plt.subplot2grid((4, 3), (3, 2), rowspan=1)
 
-    ticks=np.arange(30, 170, 10)
+    ticks=np.linspace(0, (y_break*1.1), 10, dtype=int)
     for ax, n in zip([ax1, ax2, ax3, ax4, ax5, ax6, ax7, ax8, ax9 ], np.arange(9)):
         plot_speed = speeds_cross_max[n, :]
         plot_ys = np.arange(y_break)
@@ -262,8 +262,8 @@ def plot_max_speeds_daily(speeds_cross_max, y_break, umask, vmax, depthu, dep_in
         ax.set_title('Day ' + str(n+1), fontsize=20)
         ax.yaxis.set_ticks(ticks)
         ax.grid()
-        ax.annotate('max = '+str(max_plot_speed), xy=(vmax*0.7, 60), fontsize=20)
-        ax.annotate('min = '+str(min_plot_speed), xy=(vmax*0.7, 50), fontsize=20)
+        ax.annotate('max = '+str(max_plot_speed), xy=(vmax*0.7, y_break*0.3), fontsize=20)
+        ax.annotate('min = '+str(min_plot_speed), xy=(vmax*0.7, y_break*0.2), fontsize=20)
 
     cmap_mask = LinearSegmentedColormap.from_list('mycmap', ['silver', 'white'])
     ax0.pcolormesh(umask, cmap=cmap_mask)
@@ -301,7 +301,7 @@ def plot_separation_daily(kind_separation, kind_index, y_break, umask, e1u, vmax
     elif kind_index == '[km]':
         divide = 1000
 
-    ticks=np.arange(30, 170, 10)
+    ticks=np.linspace(0, (y_break*1.1), 10, dtype=int)
     for ax, n in zip([ax1, ax2, ax3, ax4, ax5, ax6, ax7, ax8, ax9 ], np.arange(9)):
         plot_separation = kind_separation[n, :] / divide
         plot_ys = np.arange(y_break)
@@ -315,8 +315,8 @@ def plot_separation_daily(kind_separation, kind_index, y_break, umask, e1u, vmax
         ax.set_title('Day ' + str(n+1), fontsize=20)
         ax.yaxis.set_ticks(ticks)
         ax.grid()
-        ax.annotate('max = '+str(max_plot_separation), xy=(vmax*0.4, 140), fontsize=20)
-        ax.annotate('min = '+str(min_plot_separation), xy=(vmax*0.4, 130), fontsize=20)
+        ax.annotate('max = '+str(max_plot_separation), xy=(vmax*0.8, y_break*0.3), fontsize=20)
+        ax.annotate('min = '+str(min_plot_separation), xy=(vmax*0.8, y_break*0.2), fontsize=20)
 
     e1u_masked = np.ma.array(e1u, mask=1 - umask)
     cmap = cm.Spectral_r
