@@ -151,6 +151,12 @@ def get_uv_at_depth(dirname, fname, dep_ind):
 
 
 def get_uv_at_depth_day(dirname, fname, dep_ind, day):
+    ''' day 1 = 0 to 24 hrs -- time_ind 24 hrs
+        day 2 = 24 to 48 hrs -- time_ind 48 hrs
+        day 3 = 48 to 72 hrs -- time_ind 72 hrs
+        
+        enter the actual day you want (no day 0).
+    '''
     
     filesU = general_functions.get_files(dirname, fname, 'grid_U')        
     filesV = general_functions.get_files(dirname, fname, 'grid_V')
@@ -159,9 +165,9 @@ def get_uv_at_depth_day(dirname, fname, dep_ind, day):
     time_ind = day*24
 
     with scDataset(filesU) as dsU, scDataset(filesV) as dsV:
-        vozocrtx0 = dsU.variables['vozocrtx'][time_ind:time_ind+24,dep_ind,y,x]
-        vomecrty0 = dsV.variables['vomecrty'][time_ind:time_ind+24,dep_ind,y,x]
-        sozotaux = dsU.variables['sozotaux'][time_ind:time_ind+24,0,0]
+        vozocrtx0 = dsU.variables['vozocrtx'][time_ind-24:time_ind,dep_ind,y,x]
+        vomecrty0 = dsV.variables['vomecrty'][time_ind-24:time_ind,dep_ind,y,x]
+        sozotaux = dsU.variables['sozotaux'][time_ind-24:time_ind,0,0]
         depthu = dsU.variables['depthu'][:]
         depthv = dsV.variables['depthv'][:]
 
