@@ -22,6 +22,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import sys
 sys.path.append('/ocean/imachuca/Canyons/analysis_mackenzie_canyon/notebooks/general_circulation/')
 import general_functions
+import quicklook
 
 # --------------------------------------------------------------------------------------
 # --------------- Calculations
@@ -339,5 +340,78 @@ def plot_separation_daily(kind_separation, kind_index, y_break, umask, e1u, vmax
     plt.subplots_adjust(top=0.95)
     
     return fig
+
+# --------------------------------------------------------------------------------------
+
+def get_speeds_nstg(vozocrtx, vomecrty, umask, vmask, arrow, days):
+    x_slice, y_slice, u_nstg, v_nstg, speeds = quicklook.get_speeds(vozocrtx, vomecrty, arrow)
+    speeds_daily = quicklook.get_1day_avg_of_speeds(speeds, days)
+    u_nstg_daily = quicklook.get_1day_avg_of_speeds(u_nstg, days)
+    v_nstg_daily = quicklook.get_1day_avg_of_speeds(v_nstg, days)
+    
+    if arrow==1:
+        umask_slice = umask[:-1, :-1]
+        vmask_slice = vmask[:-1, :-1]
+    else:
+        umask_slice = umask[::arrow, ::arrow]
+        vmask_slice = vmask[::arrow, ::arrow]
+    
+    return x_slice, y_slice, speeds_daily, u_nstg_daily, v_nstg_daily, umask_slice, vmask_slice
+
+#
+
+def plot_speed_combination(vozocrtx, vomecrty, umask, vmask, depthu, dep_ind, case):
+    days = 9
+    levels = [0.03, 0.05, 0.1, 0.2, 0.3]
+    
+    colour_list = ["#c8274c","#f25546","#F06543","#e96e33","#f0b038","#FFE74C",
+                   "#69b944","#72b286","#69b0bc","#619ee4","#4b5bbb"][::-1]
+    
+    x_slice, y_slice, speeds_daily, u_nstg_daily, v_nstg_daily,\
+        umask_slice, vmask_slice = get_speeds_nstg(vozocrtx, vomecrty, umask, 1, days)
+    x_sliceq, y_sliceq, speeds_dailyq, u_nstg_dailyq, v_nstg_dailyq,\
+        umask_sliceq, vmask_sliceq = get_speeds_nstg(vozocrtx, vomecrty, umask, 10, days)
+    
+    cmap = LinearSegmentedColormap.from_list('mycmap', colour_list, N=500, gamma=1)
+    cmap.set_bad('silver')
+    vmin, vmax = 0, speeds_daily.max()
+
+    fig, axes = plt.subplots(3, 3, figsize = (20, 21))
+    for ax, n in zip(axes.flatten(), np.arange(9)):
+        
+        plot_speeds = np.ma.array(speeds_daily[n, ...], mask=1 - umask_slice)
+        plot_u_nstg = np.ma.array(u_nstg_daily[n, ...], mask=1 - umask_slice)
+        plot_v_nstg = np.ma.array(v_nstg_daily[n, ...], mask=1 - vmask_slice)
+        
+        plot_speedsq = np.ma.array(speeds_dailyq[n, ...], mask=1 - umask_sliceq)
+        plot_u_nstgq = np.ma.array(u_nstg_dailyq[n, ...], mask=1 - umask_sliceq)
+        plot_v_nstgq = np.ma.array(v_nstg_dailyq[n, ...], mask=1 - vmask_sliceq)
+        
+        #
+        p = ax.pcolormesh(x_slice, y_slice, plot_speeds, cmap=cmap, vmin=vmin, vmax=vmax)
+        cs = ax.contour(x_slice, y_slice, plot_speeds, levels = levels, colors='k', alpha=0.5)
+        #
+        ax.quiver(x_sliceq, y_sliceq, plot_u_nstgq, plot_v_nstgq, color='k', 
+                  clim=[vmin,vmax], pivot='mid', width=0.005, headwidth=2.5)
+        #
+        ax.clabel(cs, inline=1, fontsize=10)
+        plt.setp(ax.get_xticklabels(), visible=False)
+        plt.setp(ax.get_yticklabels(), visible=False)
+        ax.tick_params(axis='both', which='both', length=0)
+        ax.set_aspect(aspect='equal')
+        ax.set_xlim([0, umask.shape[-1]])
+        ax.set_ylim([0, umask.shape[-2]])
+        ax.set_title('Day ' + str(n+1), fontsize=20)
+        cbar = fig.colorbar(p, ax=ax, fraction=0.05, orientation='horizontal', pad=0.009)
+        cbar.ax.tick_params(labelsize=13)
+        tick_locator = ticker.MaxNLocator(nbins=5)
+        cbar.locator = tick_locator
+        cbar.update_ticks()
+
+    fig.tight_layout(w_pad=1.2, h_pad=0.01)
+    fig.suptitle(case+' - Speeds [m/s] at depth = '+str(int(depthu[dep_ind]))+' m', fontsize=25)
+    plt.subplots_adjust(top=0.96)
+    return fig
+
 
 # --------------------------------------------------------------------------------------
