@@ -77,12 +77,14 @@ def get_vars_for_box(dirname, fname, x_start, x_end, y_start, y_end):
     with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
         umask0 = dsM.variables['umask'][0,:,y,x]
         umask_all = dsM.variables['umask'][0,:,:,:]
+        e1u = dsM.variables['e1u'][0, y, x]
+        e2u = dsM.variables['e2u'][0, y, x]
 
     umask = np.tile(umask0, (len(sozotaux),1, 1, 1))
 
     vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
     
-    return vozocrtx, umask, umask_all, depthu, sozotaux
+    return vozocrtx, umask, umask_all, depthu, e1u, e2u, sozotaux
 
 def get_sal_cross_mer(dirname, fname, x_ind, time_ind, z_cut):
     
