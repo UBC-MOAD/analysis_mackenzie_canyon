@@ -23,6 +23,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
+* ##[animations_separtion_velocity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_separtion_velocity_ideal.ipynb)  
+    
 * ##[Seminar_Speeds.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Speeds.ipynb)  
     
     March: Images for PO Seminar presentation - speed slices animations.  
@@ -47,6 +49,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     March: Images for PO Seminar presentation - W vel slices animations.  
 
+* ##[vorticity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/vorticity_ideal.ipynb)  
+    
 * ##[wind_stress_oscillations.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wind_stress_oscillations.ipynb)  
     
     Finding a frequency at which we can eliminate the inertial oscillations.  
@@ -155,6 +159,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     November: Animations of speeds (using U and V) profiles at different depths using pcolormesh and contour lines.  
 
+* ##[velocities_domain_sections_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_domain_sections_ideal.ipynb)  
+    
 * ##[animations_TempAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_TempAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of temperature anomaly and isotherms using pcolormesh and contour lines.  
