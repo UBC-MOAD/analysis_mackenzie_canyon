@@ -29,6 +29,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     March: Images for PO Seminar presentation - speed slices animations.  
 
+* ##[onoffshore_velocities_series_child.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/onoffshore_velocities_series_child.ipynb)  
+    
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
     Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
@@ -159,12 +161,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
     November: Animations of speeds (using U and V) profiles at different depths using pcolormesh and contour lines.  
 
-* ##[velocities_domain_sections_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_domain_sections_ideal.ipynb)  
-    
 * ##[animations_TempAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_TempAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of temperature anomaly and isotherms using pcolormesh and contour lines.  
 
+* ##[updownstream_velocities_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/updownstream_velocities_series.ipynb)  
+    
 * ##[animations_S_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_S_top_profiles.ipynb)  
     
     November: Animations of the salinity anomaly profiles at different depths using pcolormesh and contour lines.  
