@@ -23,8 +23,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of U, V and W velocity profiles at shelf break depth using pcolormesh.  
 
-* ##[animations_separtion_velocity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_separtion_velocity_ideal.ipynb)  
-    
 * ##[Seminar_Speeds.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Speeds.ipynb)  
     
     March: Images for PO Seminar presentation - speed slices animations.  
@@ -42,6 +40,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[speed_depths_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/speed_depths_snapshots.ipynb)  
     
     November: Depth slices of speed with cmapIAM.  
+
+* ##[onshore_jet_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/onshore_jet_ideal.ipynb)  
+    
+    April: **Research Questions 1.A.2 and 1.A.3** (Ideal)  
 
 * ##[flow_around_canyon_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/flow_around_canyon_ideal.ipynb)  
     
@@ -133,6 +135,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
 
+* ##[animations_onshore_jet_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_onshore_jet_ideal.ipynb)  
+    
 * ##[check_courant.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/check_courant.ipynb)  
     
     Jan: Getting an idea of where the Courant number should be for the realistic (and ideal) given the new winds.  
@@ -152,10 +156,6 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[animations_W_top_profiles_real.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_W_top_profiles_real.ipynb)  
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
-
-* ##[separtion_velocity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/separtion_velocity_ideal.ipynb)  
-    
-    April: **Research Questions 1.A.2 and 1.A.3** (Ideal)  
 
 * ##[animations_speeds_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_speeds_top_profiles.ipynb)  
     
