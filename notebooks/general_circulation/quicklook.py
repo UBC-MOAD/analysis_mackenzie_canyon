@@ -224,6 +224,12 @@ def get_1day_avg_of_speeds(speeds, days):
         speeds_daily[d, :, :] = get_1day_avg(speeds, d, d+1) 
     return speeds_daily
 
+def get_sozotaux(dirname, fname):
+    filesU = general_functions.get_files(dirname, fname, 'grid_U')
+    with scDataset(filesU) as dsU:
+        sozotaux = dsU.variables['sozotaux'][:,0,0]
+    return sozotaux
+
 def calculate_avgU(vozocrtx, dep_start, dep_end):
 
     # find avg U for every row in the y direction
