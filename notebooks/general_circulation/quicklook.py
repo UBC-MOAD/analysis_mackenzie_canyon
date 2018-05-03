@@ -63,28 +63,51 @@ def get_vars_at_depth(dirname, fname, dep_ind):
     
     return vozocrtx, vomecrty, vovecrtz, vosaline, vosaline_orig, umask, vmask, tmask, depthu, sozotaux
 
-def get_vars_for_box(dirname, fname, x_start, x_end, y_start, y_end):
+def get_vars_for_box(dirname, fname, meshmaskname, x_start, x_end, y_start, y_end, flag):
+    if flag=='U':
+        gridname = 'grid_U'
+        velname = 'vozocrtx'
+        depthname = 'depthu'
+        maskname = 'umask'
+        e1name = 'e1u'
+        e2name = 'e2u'
+        
+    elif flag=='V':
+        gridname = 'grid_V'
+        velname = 'vomecrty'
+        depthname = 'depthv'
+        maskname = 'vmask'
+        e1name = 'e1v'
+        e2name = 'e2v'
+        
+    elif flag=='W':
+        gridname = 'grid_W'
+        velname = 'vovecrtz'
+        depthname = 'depthw'
+        maskname = 'tmask'
+        e1name = 'e1t'
+        e2name = 'e2t'
     
     filesU = general_functions.get_files(dirname, fname, 'grid_U')
-    
-    x,y = slice(x_start, x_end, None), slice(y_start, y_end, None)
-    
     with scDataset(filesU) as dsU:
-        vozocrtx0 = dsU.variables['vozocrtx'][:,:,y,x]
         sozotaux = dsU.variables['sozotaux'][:,0,0]
-        depthu = dsU.variables['depthu'][:]
+      
+    x,y = slice(x_start, x_end, None), slice(y_start, y_end, None)
+    files = general_functions.get_files(dirname, fname, gridname) 
+    with scDataset(files) as ds:
+        vel0 = ds.variables[velname][:,:,y,x]
+        depth = ds.variables[depthname][:]
 
-    with nc.Dataset(os.path.join(dirname, '1_mesh_mask.nc'), 'r') as dsM:
-        umask0 = dsM.variables['umask'][0,:,y,x]
-        umask_all = dsM.variables['umask'][0,:,:,:]
-        e1u = dsM.variables['e1u'][0, y, x]
-        e2u = dsM.variables['e2u'][0, y, x]
+    with nc.Dataset(os.path.join(dirname, meshmaskname), 'r') as dsM:
+        mask0 = dsM.variables[maskname][0,:,y,x]
+        mask_all = dsM.variables[maskname][0,:,:,:]
+        e1 = dsM.variables[e1name][0, y, x]
+        e2 = dsM.variables[e2name][0, y, x]
 
-    umask = np.tile(umask0, (len(sozotaux),1, 1, 1))
-
-    vozocrtx = np.ma.array(vozocrtx0, mask=1 - umask)
+    mask = np.tile(mask0, (len(sozotaux),1, 1, 1))
+    vel = np.ma.array(vel0, mask=1 - mask)
     
-    return vozocrtx, umask, umask_all, depthu, e1u, e2u, sozotaux
+    return vel, mask, mask_all, depth, e1, e2, sozotaux
 
 def get_sal_cross_mer(dirname, fname, x_ind, time_ind, z_cut):
     
@@ -230,21 +253,21 @@ def get_sozotaux(dirname, fname):
         sozotaux = dsU.variables['sozotaux'][:,0,0]
     return sozotaux
 
-def calculate_avgU(vozocrtx, dep_start, dep_end):
+def calculate_avg_vel(vel, dep_start, dep_end):
 
     # find avg U for every row in the y direction
-    avgU_all_ys = np.mean(np.mean(vozocrtx, axis=-1), axis=-2)
+    avg_all_ys = np.mean(np.mean(vel, axis=-1), axis=-2)
 
     # find avg U within horizontal rectangle for all depths (time, z)
-    avgU_all_depths = np.mean(np.mean(vozocrtx, axis=-1), axis=-1)
+    avg_all_depths = np.mean(np.mean(vel, axis=-1), axis=-1)
 
     # find avg U for every depth within the box
-    avgU_box_depths = avgU_all_depths[:, dep_start : dep_end+1]
+    avg_box_depths = avg_all_depths[:, dep_start : dep_end+1]
 
     # find the absolute avg U within the box
-    avgU_absolute = np.mean(avgU_box_depths, axis=-1)
+    avg_absolute = np.mean(avg_box_depths, axis=-1)
     
-    return avgU_all_ys, avgU_all_depths, avgU_box_depths, avgU_absolute
+    return avg_all_ys, avg_all_depths, avg_box_depths, avg_absolute
 
 # --------------------------------------------------------------------------------------
 
