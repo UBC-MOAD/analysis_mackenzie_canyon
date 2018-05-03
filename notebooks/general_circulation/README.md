@@ -27,8 +27,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     March: Images for PO Seminar presentation - speed slices animations.  
 
-* ##[onoffshore_velocities_series_child.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/onoffshore_velocities_series_child.ipynb)  
-    
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
     Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
@@ -157,6 +155,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Animations of the vertical velocity (W) profiles at different depths using pcolormesh and contour lines.  
 
+* ##[onoffshore_velocities_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/onoffshore_velocities_series.ipynb)  
+    
 * ##[animations_speeds_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_speeds_top_profiles.ipynb)  
     
     November: Animations of speeds (using U and V) profiles at different depths using pcolormesh and contour lines.  
