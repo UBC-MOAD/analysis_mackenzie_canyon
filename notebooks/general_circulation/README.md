@@ -43,10 +43,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     April: **Research Questions 1.A.2 and 1.A.4** (Ideal)  
 
-* ##[flow_around_canyon_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/flow_around_canyon_ideal.ipynb)  
+* ##[streamlines_daily.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/streamlines_daily.ipynb)  
     
-    April: **Research Questions 1.A.4** (Ideal)  
-
 * ##[Seminar_Wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Wave.ipynb)  
     
     March: Images for PO Seminar presentation - W vel slices animations.  
@@ -58,6 +56,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[wind_stress_oscillations.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wind_stress_oscillations.ipynb)  
     
     Finding a frequency at which we can eliminate the inertial oscillations.  
+
+* ##[cross_sections_canyon.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/cross_sections_canyon.ipynb)  
+    
+    April: **Research Questions 1.A.4** (Ideal)  
 
 * ##[issues_with_realistic.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/issues_with_realistic.ipynb)  
     
@@ -167,6 +169,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     August: Top and cross sections of temperature anomaly and isotherms using pcolormesh and contour lines.  
 
+* ##[animations_streamlines_daily.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_streamlines_daily.ipynb)  
+    
 * ##[updownstream_velocities_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/updownstream_velocities_series.ipynb)  
     
     April: **Research Questions 1.B.1** (Ideal and Real)  
