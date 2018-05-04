@@ -133,6 +133,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     December: Ideal/Half - incoming velocity, u, v, streamlines, speeds, story.  
 
+* ##[cross_sections_domain.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/cross_sections_domain.ipynb)  
+    
+    May: **Research Questions 1.B.2** (Ideal and Real)  
+
 * ##[animations_SaltAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_SaltAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of salinity anomaly and isohalines using pcolormesh and contour lines.  
