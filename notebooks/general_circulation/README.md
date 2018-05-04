@@ -41,7 +41,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[onshore_jet_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/onshore_jet_ideal.ipynb)  
     
-    April: **Research Questions 1.A.2 and 1.A.3** (Ideal)  
+    April: **Research Questions 1.A.2 and 1.A.4** (Ideal)  
 
 * ##[flow_around_canyon_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/flow_around_canyon_ideal.ipynb)  
     
@@ -53,6 +53,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[vorticity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/vorticity_ideal.ipynb)  
     
+    April: **Research Questions 1.A.3 to 1.A.6** (Ideal)  
+
 * ##[wind_stress_oscillations.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wind_stress_oscillations.ipynb)  
     
     Finding a frequency at which we can eliminate the inertial oscillations.  
@@ -135,13 +137,11 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[animations_onshore_jet_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_onshore_jet_ideal.ipynb)  
     
+    April: **Research Questions 1.A.2 and 1.A.4** (Ideal)  
+
 * ##[check_courant.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/check_courant.ipynb)  
     
     Jan: Getting an idea of where the Courant number should be for the realistic (and ideal) given the new winds.  
-
-* ##[shelf_currents_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/shelf_currents_ideal.ipynb)  
-    
-    April: **Research Questions 1.A.1** (Ideal)  
 
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
@@ -157,6 +157,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[onoffshore_velocities_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/onoffshore_velocities_series.ipynb)  
     
+    April: **Research Questions 1.B.2** (Ideal and Real)  
+
 * ##[animations_speeds_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_speeds_top_profiles.ipynb)  
     
     November: Animations of speeds (using U and V) profiles at different depths using pcolormesh and contour lines.  
@@ -167,6 +169,12 @@ Descriptions under the links below are from the first cell of the notebooks
 
 * ##[updownstream_velocities_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/updownstream_velocities_series.ipynb)  
     
+    April: **Research Questions 1.B.1** (Ideal and Real)  
+
+* ##[shelf_currents.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/shelf_currents.ipynb)  
+    
+    April: **Research Questions 1.A.1** (Ideal and Real)  
+
 * ##[animations_S_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_S_top_profiles.ipynb)  
     
     November: Animations of the salinity anomaly profiles at different depths using pcolormesh and contour lines.  
