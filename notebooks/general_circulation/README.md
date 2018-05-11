@@ -27,6 +27,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     March: Images for PO Seminar presentation - speed slices animations.  
 
+* ##[vorticity_daily.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/vorticity_daily.ipynb)  
+    
+    April: **Research Questions 1.A.3 to 1.A.6** (Ideal)  
+
 * ##[velocities_rim_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/velocities_rim_snapshots.ipynb)  
     
     Snapshots of U, V, W on the sloped rim of the canyon as daily averages (day 1 to day 15). Run on Salish computer.   
@@ -48,10 +52,6 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[Seminar_Wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Seminar_Wave.ipynb)  
     
     March: Images for PO Seminar presentation - W vel slices animations.  
-
-* ##[vorticity_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/vorticity_ideal.ipynb)  
-    
-    April: **Research Questions 1.A.3 to 1.A.6** (Ideal)  
 
 * ##[wind_stress_oscillations.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/wind_stress_oscillations.ipynb)  
     
