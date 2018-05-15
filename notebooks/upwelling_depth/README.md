@@ -79,6 +79,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     January: Extracting the ideal canyon rim using canyon and no-canyon bathymetries.  
 
+* ##[displaced_depth_daily.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displaced_depth_daily.ipynb)  
+    
+    May: **Research Questions 2.1** (Ideal and Real)  
+
 * ##[extracting_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/extracting_rim.ipynb)  
     
     December: Original attempt at extracting rims. Realistic is not as clean as Ideal.  
