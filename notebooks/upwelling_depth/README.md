@@ -35,6 +35,10 @@ Descriptions under the links below are from the first cell of the notebooks
     
     February: Real cases - Original depth and depth anomaly.  
 
+* ##[displaced_depth_time_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displaced_depth_time_series.ipynb)  
+    
+    May: **Research Questions 2.2** (Ideal and Real)  
+
 * ##[e3t.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/e3t.ipynb)  
     
     February: Checking thickness of grid cells, including partial steps.  
@@ -74,6 +78,10 @@ Descriptions under the links below are from the first cell of the notebooks
 * ##[checking_high_salinities.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/checking_high_salinities.ipynb)  
     
     Part 1 - Salinity issues: real_half, real_base, ideal_base_flt, ideal_double_flt, ideal_half (ts), ideal_base (ts), ideal_double (ts) ideal_base_nambfr, ideal_base_e3zps, ideal_double_e3zps  
+
+* ##[displaced_depth_single_day.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displaced_depth_single_day.ipynb)  
+    
+    May: **Research Questions 2.1** (Ideal and Real)  
 
 * ##[canyonrim_ideal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/canyonrim_ideal.ipynb)  
     
