@@ -15,6 +15,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     February: Ideal cases - Salinity cross-shore cross-sections with isohalines.  
 
+* ##[Untitled.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Untitled.ipynb)  
+    
 * ##[original_upwelling_depth_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_upwelling_depth_rim.ipynb)  
     
     May: Original ideal canyon rim and the depth of upwelling along it.  
@@ -23,6 +25,12 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Part 4 - Salinity issues: ideal_double_muscl (15 days, full and partial steps)  
 
+* ##[displacement_timeseries_all_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displacement_timeseries_all_depths.ipynb)  
+    
+    May: **Research Questions 2.2** (Ideal and Real)  
+
+* ##[calculate_pressure.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/calculate_pressure.ipynb)  
+    
 * ##[Seminar_Upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Seminar_Upwelling.ipynb)  
     
     March: Images for PO Seminar presentation - upwelling depth slices animations.   
@@ -35,7 +43,7 @@ Descriptions under the links below are from the first cell of the notebooks
     
     February: Real cases - Original depth and depth anomaly.  
 
-* ##[displaced_depth_time_series.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displaced_depth_time_series.ipynb)  
+* ##[displacement_timeseries_single_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displacement_timeseries_single_depths.ipynb)  
     
     May: **Research Questions 2.2** (Ideal and Real)  
 
