@@ -15,8 +15,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     February: Ideal cases - Salinity cross-shore cross-sections with isohalines.  
 
-* ##[Untitled.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Untitled.ipynb)  
-    
 * ##[original_upwelling_depth_rim.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/original_upwelling_depth_rim.ipynb)  
     
     May: Original ideal canyon rim and the depth of upwelling along it.  
@@ -29,8 +27,6 @@ Descriptions under the links below are from the first cell of the notebooks
     
     May: **Research Questions 2.2** (Ideal and Real)  
 
-* ##[calculate_pressure.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/calculate_pressure.ipynb)  
-    
 * ##[Seminar_Upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/Seminar_Upwelling.ipynb)  
     
     March: Images for PO Seminar presentation - upwelling depth slices animations.   
@@ -67,6 +63,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     May: Scale analysis for depth of upwelling in Mackenzie Canyon (including incoming velocity and stratification).  
 
+* ##[calculating_pressure.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/calculating_pressure.ipynb)  
+    
 * ##[make_functions_original_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/make_functions_original_depths.ipynb)  
     
     February: Making functions for original_depth_ideal/real.ipynb, bokeh.  
