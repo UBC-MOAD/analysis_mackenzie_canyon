@@ -90,11 +90,23 @@ def get_daily_depth_ind(vosaline_daily, vosaline_ref_profile):
                     depth_ind_daily[d, y, x] = min(range(len(vosaline_ref_profile)), key=lambda i: abs(vosaline_ref_profile[i]-this_vosaline))
             print(d)
             
+            
+    elif len(vosaline_daily.shape) == 2:
+        for y in range(depth_ind_daily.shape[-2]):
+            if y%50 ==0:
+                print(y)
+            for x in range(depth_ind_daily.shape[-1]):
+                this_vosaline = vosaline_daily[y, x]
+                depth_ind_daily[y, x] = min(range(len(vosaline_ref_profile)), key=lambda i: abs(vosaline_ref_profile[i]-this_vosaline))
+                
+            
     elif len(vosaline_daily.shape) == 1:  
         for d in range(len(depth_ind_daily)):
             this_vosaline = vosaline_daily[d]
             depth_ind_daily[d] = min(range(len(vosaline_ref_profile)), key=lambda i: abs(vosaline_ref_profile[i]-this_vosaline))
 
+
+            
     return depth_ind_daily
 
 # --------------------------------------------------------------------------------------------
@@ -110,6 +122,11 @@ def get_daily_depth_m(deptht, dep_ind_slice, depth_ind_daily, tmask):
         tmask_new = np.tile(tmask, (depth_ind_daily.shape[0], 1, 1))
         depth_m_daily = np.ma.array(depth_m_daily, mask=1 - tmask_new)
         depth_upwelled = np.ma.array(depth_upwelled, mask=1 - tmask_new)
+        
+    elif len(depth_ind_daily.shape) == 2:
+        depth_m_daily = np.ma.array(depth_m_daily, mask=1 - tmask)
+        depth_upwelled = np.ma.array(depth_upwelled, mask=1 - tmask)
+        
     else:
         pass
     
