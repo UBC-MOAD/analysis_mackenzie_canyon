@@ -85,6 +85,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Part 1 - Salinity issues: real_half, real_base, ideal_base_flt, ideal_double_flt, ideal_half (ts), ideal_base (ts), ideal_double (ts) ideal_base_nambfr, ideal_base_e3zps, ideal_double_e3zps  
 
+* ##[density_surfaces.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/density_surfaces.ipynb)  
+    
 * ##[displaced_depth_single_day.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displaced_depth_single_day.ipynb)  
     
     May: **Research Questions 2.1** (Ideal and Real)  
@@ -93,6 +95,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     January: Extracting the ideal canyon rim using canyon and no-canyon bathymetries.  
 
+* ##[story_panels_uvwpzsd.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/story_panels_uvwpzsd.ipynb)  
+    
 * ##[displaced_depth_daily.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/upwelling_depth/displaced_depth_daily.ipynb)  
     
     May: **Research Questions 2.1** (Ideal and Real)  
