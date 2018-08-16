@@ -69,8 +69,13 @@ def get_vars_salt(dirname, fname, meshmaskname, dep_ind_slice, time_s, time_f, y
 def get_daily_vosaline(vosaline, tmask, days):
     
     # get daily salinity averages from hourly results
-    vosaline_daily0 = quicklook.get_1day_avg_of_speeds(vosaline, days)
-    tmask_new = np.tile(tmask, (vosaline_daily0.shape[0], 1, 1))
+    if days == None:
+        vosaline_daily0 = quicklook.get_1day_avg(vosaline, None, None)
+        tmask_new = tmask
+    else:
+        vosaline_daily0 = quicklook.get_1day_avg_of_speeds(vosaline, days)
+        tmask_new = np.tile(tmask, (vosaline_daily0.shape[0], 1, 1))
+    
     vosaline_daily = np.ma.array(vosaline_daily0, mask=1 - tmask_new)
     
     return vosaline_daily
