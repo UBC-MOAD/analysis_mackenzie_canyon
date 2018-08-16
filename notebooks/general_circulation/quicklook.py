@@ -217,8 +217,11 @@ def get_uv_at_depth_day(dirname, fname, dep_ind, day):
 
 
 def get_1day_avg(vel, day_start, day_end):
-    day = slice(day_start*24, day_end*24, None)
-    vel_day = np.mean(vel[day, ...], axis=0)
+    if day_start == None or day_end == None:
+        vel_day = np.mean(vel, axis=0)
+    else:
+        day = slice(day_start*24, day_end*24, None)
+        vel_day = np.mean(vel[day, ...], axis=0)
     return vel_day
 
 def get_speeds(U_vel, V_vel, arrow):
