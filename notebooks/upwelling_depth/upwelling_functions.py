@@ -53,16 +53,27 @@ def get_vars_salt(dirname, fname, meshmaskname, dep_ind_slice, time_s, time_f, y
             
     with scDataset(filesT) as dsT, scDataset(filesU) as dsU:
         deptht = dsT.variables['deptht'][:]
-        vosaline0 = dsT.variables['vosaline'][time_s:time_f, dep_ind_slice, y, x]
+        if dep_ind_slice == None:
+            vosaline0 = dsT.variables['vosaline'][time_s:time_f, :, y, x]
+        else:
+            vosaline0 = dsT.variables['vosaline'][time_s:time_f, dep_ind_slice, y, x]
         sozotaux = dsU.variables['sozotaux'][time_s:time_f, 0, 0] 
         
     with nc.Dataset(os.path.join(dirname, meshmaskname), 'r') as dsM:
-        tmask0 = dsM.variables['tmask'][0, dep_ind_slice, y, x]
+        if dep_ind_slice == None:
+            tmask0 = dsM.variables['tmask'][0, :, y, x]
+        else:
+            tmask0 = dsM.variables['tmask'][0, dep_ind_slice, y, x]
         
     tmask = np.tile(tmask0, (len(sozotaux), 1, 1, 1))  
     vosaline = np.ma.array(vosaline0, mask=1 - tmask)
     
-    return vosaline, sozotaux, deptht, tmask[0, 0, ...]
+    if dep_ind_slice == None:
+        tmask_return = tmask
+    else:
+        tmask_return = tmask[0, 0, ...]
+    
+    return vosaline, sozotaux, deptht, tmask_return
 
 # --------------------------------------------------------------------------------------------
 
