@@ -133,6 +133,7 @@ def get_daily_depth_m(deptht, dep_ind_slice, depth_ind_daily, tmask):
     depth_m_daily = deptht[depth_ind_daily]
     # get upwelling displacement by finding difference
     depth_upwelled = depth_m_daily - deptht[dep_ind_slice]
+    # original depth minus current depth slice (positive means upwelling)
     
     if len(depth_ind_daily.shape) == 3:
         tmask_new = np.tile(tmask, (depth_ind_daily.shape[0], 1, 1))
