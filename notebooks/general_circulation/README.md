@@ -7,6 +7,8 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
+* ##[streamlines_single_day.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/streamlines_single_day.ipynb)  
+    
 * ##[quicklook_real_half.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/quicklook_real_half.ipynb)  
     
     January: Real/Half - incoming velocity, u, v, streamlines, speeds, story.  
@@ -149,6 +151,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     Jan: Getting an idea of where the Courant number should be for the realistic (and ideal) given the new winds.  
 
+* ##[Brink_program.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/Brink_program.ipynb)  
+    
 * ##[animations_V_top_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_V_top_profiles.ipynb)  
     
     November: Animations of the horizontal velocity (V) profiles at different depths using pcolormesh and contour lines.  
