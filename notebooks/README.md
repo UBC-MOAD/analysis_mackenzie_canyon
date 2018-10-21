@@ -7,21 +7,21 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[agrif_first_look.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/agrif_first_look.ipynb)  
+* ##[agrif_first_look.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_first_look.ipynb)  
     
-* ##[new_resolution.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/new_resolution.ipynb)  
+* ##[new_resolution.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/new_resolution.ipynb)  
     
     June: Order of process for new resolution.  
 
-* ##[config_for_agrif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/config_for_agrif.ipynb)  
+* ##[config_for_agrif.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/config_for_agrif.ipynb)  
     
     July: Bathymetry, coordinates, bdy and init conditions, and namelist changes for configuration for AGRIF.  
 
-* ##[agrif_north_bdy.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/agrif_north_bdy.ipynb)  
+* ##[agrif_north_bdy.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_north_bdy.ipynb)  
     
-* ##[agrif_child_extended.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/agrif_child_extended.ipynb)  
+* ##[agrif_child_extended.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/agrif_child_extended.ipynb)  
     
-* ##[waitjob_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/waitjob_runs.ipynb)  
+* ##[waitjob_runs.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/waitjob_runs.ipynb)  
     
 
 ##License
