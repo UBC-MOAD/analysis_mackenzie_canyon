@@ -175,6 +175,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     November: Animations of speeds (using U and V) profiles at different depths using pcolormesh and contour lines.  
 
+* ##[CTW_tests_new.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/CTW_tests_new.ipynb)  
+    
 * ##[animations_TempAnom_top_cross_profiles.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/animations_TempAnom_top_cross_profiles.ipynb)  
     
     August: Top and cross sections of temperature anomaly and isotherms using pcolormesh and contour lines.  
