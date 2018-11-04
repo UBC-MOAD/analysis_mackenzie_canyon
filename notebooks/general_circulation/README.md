@@ -111,6 +111,8 @@ Descriptions under the links below are from the first cell of the notebooks
     
     April: Speed of wave? Cross-sections of U, V, W, speeds. Finding speed using distance between stations and time elapsed for signal to appear in each.  
 
+* ##[CTW_dispersion_curves.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/CTW_dispersion_curves.ipynb)  
+    
 * ##[salinity_anomaly_depth_snapshots.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/general_circulation/salinity_anomaly_depth_snapshots.ipynb)  
     
     November - Depth slices of salinity anomaly.  
