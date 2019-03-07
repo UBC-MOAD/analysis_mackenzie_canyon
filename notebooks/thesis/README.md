@@ -7,13 +7,73 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[speeds_key_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/speeds_key_depths.ipynb)  
+* ##[surface_water_mass_slines.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/surface_water_mass_slines.ipynb)  
     
-* ##[dispacement_key_depths.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/dispacement_key_depths.ipynb)  
+* ##[absolute_practical_salinity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/absolute_practical_salinity.ipynb)  
     
-* ##[bathymetry_dimensions.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/bathymetry_dimensions.ipynb)  
+* ##[comparison_wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/comparison_wave.ipynb)  
+    
+* ##[timeseries_upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/timeseries_upwelling.ipynb)  
+    
+* ##[figures_observations_salinity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_observations_salinity.ipynb)  
+    
+* ##[figures_scattering.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_scattering.ipynb)  
+    
+* ##[numbers.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/numbers.ipynb)  
+    
+* ##[figures_geostrophic_balance.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_geostrophic_balance.ipynb)  
+    
+* ##[figures_hovmoller.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_hovmoller.ipynb)  
+    
+* ##[comparison_upwelling.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/comparison_upwelling.ipynb)  
+    
+* ##[figures_streamlines.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_streamlines.ipynb)  
+    
+* ##[surface_water_mass_depth.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/surface_water_mass_depth.ipynb)  
+    
+* ##[surface_water_mass_speeds.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/surface_water_mass_speeds.ipynb)  
+    
+* ##[individual_surface_water_mass.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/individual_surface_water_mass.ipynb)  
+    
+* ##[figures_wave_mode.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_wave_mode.ipynb)  
+    
+* ##[comparison_scripts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/comparison_scripts.ipynb)  
+    
+* ##[figures_maps.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_maps.ipynb)  
+    
+* ##[surface_water_mass_pressure.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/surface_water_mass_pressure.ipynb)  
+    
+* ##[figures_definitions.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_definitions.ipynb)  
+    
+* ##[figures_edge.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_edge.ipynb)  
+    
+* ##[values_upwelling_upstream.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/values_upwelling_upstream.ipynb)  
+    
+* ##[figures_general_circulation.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_general_circulation.ipynb)  
+    
+* ##[comparison_nitrate.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/comparison_nitrate.ipynb)  
+    
+* ##[figures_propagation_AW.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_propagation_AW.ipynb)  
+    
+* ##[figures_observations_currents.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_observations_currents.ipynb)  
+    
+* ##[hourly_surface_water_mass.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/hourly_surface_water_mass.ipynb)  
+    
+* ##[values_vorticity_corner.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/values_vorticity_corner.ipynb)  
+    
+* ##[surface_water_mass_wave.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/surface_water_mass_wave.ipynb)  
+    
+* ##[figures_domain.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_domain.ipynb)  
+    
+* ##[comparison_separation.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/comparison_separation.ipynb)  
     
 * ##[forcing_initialconditions.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/forcing_initialconditions.ipynb)  
+    
+* ##[figures_nitrate.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_nitrate.ipynb)  
+    
+* ##[figures_displacement.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/figures_displacement.ipynb)  
+    
+* ##[rossby_numbers.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/rossby_numbers.ipynb)  
     
 
 ##License
