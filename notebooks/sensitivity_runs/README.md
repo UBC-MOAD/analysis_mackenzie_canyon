@@ -7,7 +7,7 @@ Descriptions under the links below are from the first cell of the notebooks
 
 ##Author: Idalia Machuca, University of British Columbia
 
-* ##[sensitivity_stratifications.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/thesis/sensitivity_stratifications.ipynb)  
+* ##[sensitivity_stratifications.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/CanyonsUBC/analysis_mackenzie_canyon/raw/tip/notebooks/sensitivity_runs/sensitivity_stratifications.ipynb)  
     
 
 ##License
